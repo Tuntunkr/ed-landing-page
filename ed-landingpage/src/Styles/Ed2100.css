@@ -110,25 +110,39 @@
 
 
 
+
 @media only screen and (max-width: 600px) {
   .process-container {
     background-size: contain;
   }
-  .content h3 span {
+  .Our-L-Partners {
+    padding-top: 10px;
+    margin-top: 30px;
+  }
+  .Our-L-Partners h3 span {
     text-align: center;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 51px;
   }
-  .content h3 {
+  .Our-L-Partners h3 {
     text-align: center;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 51px;
   }
-  
+
+  .Our-L-Partners p{
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  /* .container{
+    padding: initial;
+  } */
+
   .feature-row {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

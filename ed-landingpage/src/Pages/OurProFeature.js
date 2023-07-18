@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../Styles/OurProduct.css";
-import { json } from "react-router-dom";
 
 function OurProFeature() {
   const [cards] = useState([
@@ -72,11 +71,9 @@ function OurProFeature() {
         <div className="container">
           <div className="feature-row">
             {cards.map((card, i) => { 
-              console.log("card",card.bg)
               return(
                 
                 <div  className="feature-card" >
-              {/* {alert(JSON.stringify(card.bg))} */}
                 <div className="img-box-f" style={{background:card.bg,borderRadius: "77px 500px 500px 77px"}} >
 
                   <img src={card.img} alt="imgs" />
