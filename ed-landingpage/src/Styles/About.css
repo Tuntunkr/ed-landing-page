@@ -21,8 +21,7 @@
   border-radius: 28px;
 }
 
-
-.Artificial-image-second img{
+.Artificial-image-second img {
   height: 340px;
   flex-shrink: 0;
   border-radius: 28px;
@@ -33,10 +32,9 @@
   /* border: 2px solid red; */
 }
 
-.secGaptwo{
+.secGaptwo {
   margin-top: 40px;
   padding: 130px 0px 1px 2px;
-
 }
 
 .process-content {
@@ -52,7 +50,6 @@
   margin-left: auto;
 } */
 
-
 .process-mapra {
   margin-top: 30px;
   color: #5b5b5b;
@@ -63,7 +60,6 @@
 }
 
 .Artificial-title h3 {
-
   text-align: start;
   color: #333;
   font-size: 40px;
@@ -81,7 +77,6 @@
   font-weight: 600;
   line-height: 23px;
   padding-bottom: 30px;
-
 }
 
 .Artificial-title h3 span {
@@ -100,8 +95,6 @@
   font-weight: 700;
   line-height: 23px;
 }
-
-
 
 .Ailist {
   display: flex;
@@ -135,46 +128,48 @@
     background-size: contain;
     border: 2px solid red;
   }
-
-  .process-container:nth-of-type(even) {
-    margin: inherit;
-    border: 2px solid red;
-    margin-left: 0px;
-    text-align: center;
-    width: 100%;
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* padding-left: 3rem; */
-  }
-  .process-image {
-    height: fit-content;
-    flex-shrink: 0;
-  }
-  .process-image img {
-    height: fit-content;
-    margin: auto;
-  }
-  .process-title h3 {
+  .Artificial-title h3 {
     color: #fca61f;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 23px;
-    text-align: center;
-  }
-  .process-title h3 span {
-    color: #333;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 23px;
   }
-  .Ai-Edu-title h3 {
-    margin: 0;
-    /* text-align: center; */
-    margin-bottom: 10px;
+  .Artificial-title h3 span {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px;
   }
+
+  .process-mapra{
+    margin-top: auto;
+  }
+
+  .Artificial-image img {
+    margin: inherit;
+  }
+
   .Ailist img {
     /* margin:0; */
     margin-left: 10px;
     text-align: center;
+  }
+
+  .secGaptwo {
+    margin-top: auto;
+    padding: 0;
+  }
+  .Ai-Edu-title h3{
+    padding-left: inherit;
+  }
+  .Ailist{
+    padding-left: inherit;
+
+  }
+  .process-content{
+    padding: 0;
   }
 }

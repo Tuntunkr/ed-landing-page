@@ -3,7 +3,6 @@ import './App.css';
 // import "./Gelements.css"
 import { Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Headers from "./components/Header";
 import HeroSec from "./components/HeroSec";
 import AboutUs from "./Pages/AboutUs";
 import EdtechPartners from "./Pages/EdtechPartners";

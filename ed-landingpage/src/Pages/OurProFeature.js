@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "../Styles/OurProduct.css";
+import { json } from "react-router-dom";
 
 function OurProFeature() {
   const [cards] = useState([
     {
+      bg:"#D2FCFF",
       titile: "Intelligent learning",
       description:
         "AI enabled personalized education through profiling, learning pathways, recommendation engine, assignments & personal feedbacks",
@@ -11,29 +13,37 @@ function OurProFeature() {
       
     },
     {
+      bg:"#ECEFFF",
       titile: "Single Window Access",
       description:
         "programs and courses from pre-k to 12th grade, academic to non-academic, domestic to international.",
       img: "https://imgur.com/Wy4lZpJ.png",
     },
     {
+      bg:"#FFF0F0",
+
       titile: "Immersive Learning",
       description: "learning through AR, VR, 3D simulations & gamification",
       img: "https://imgur.com/VD9xTYA.png",
     },
     {
+      bg:"#F5FFF0",
+
       titile: "Intelligent teaching",
       description:
         "as per individual student's learning needs, course recommendations, auto lesson plans, scheduling, regulated lesson flows, auto Quiz, assessments & grading.",
       img: "https://imgur.com/lVaEsXt.png",
     },
     {
+      bg:"#FFF5E4",
+
       titile: "Consolidated growth mapping",
       description:
         "For all programs on a single platform for 360° development visibility",
       img: "https://imgur.com/qPk1xae.png",
     },
     {
+      bg:"#E6E8E6",
       titile: "Consolidated educational records",
       description:
         "All educational records including certificate, transcripts, and growth analysis will be available here.",
@@ -61,9 +71,14 @@ function OurProFeature() {
 
         <div className="container">
           <div className="feature-row">
-            {cards.map((card, i) => (
-              <div key={i} className="feature-card">
-                <div className="img-box-f">
+            {cards.map((card, i) => { 
+              console.log("card",card.bg)
+              return(
+                
+                <div  className="feature-card" >
+              {/* {alert(JSON.stringify(card.bg))} */}
+                <div className="img-box-f" style={{background:card.bg,borderRadius: "77px 500px 500px 77px"}} >
+
                   <img src={card.img} alt="imgs" />
                   <span></span>
                 </div>
@@ -72,7 +87,12 @@ function OurProFeature() {
                   <p>{card.description}</p>
                 </div>
               </div>
-            ))}
+              )
+            })}
+
+            
+            
+            
           </div>
         </div>
       </section>

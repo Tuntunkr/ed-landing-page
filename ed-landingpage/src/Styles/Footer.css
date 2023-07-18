@@ -32,13 +32,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* section {
-  padding: 60px 0;
-  min-height: 100vh;
-} */
+
 .footer {
-  padding: 100px 0px 0px;
-  /* background-color: violet; */
+  padding: 40px 0px 0px;
 }
 
 .phoneicons {
@@ -80,10 +76,10 @@ img {
 
 .footer-menu {
   color: #666 !important;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 37px;
+font-size: 14px !important;
+font-style: normal;
+font-weight: 400;
+line-height: 47px;
 
 }
 
@@ -214,10 +210,10 @@ footer .logo img {
   line-height: 32px;
 }
 
-.widget3{
+/* .widget3{
   margin-top: 7px;
   margin-left: 140px;
-}
+} */
 
 .widget4{
   margin-right: -20px;

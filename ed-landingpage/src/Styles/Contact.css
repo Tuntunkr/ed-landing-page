@@ -157,3 +157,21 @@ select ::-ms-expand {
 .text-area {
   color: #262d35;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .process-container {
+    background-size: contain;
+  }
+
+  .Contact-content{
+    padding-top: 40px;
+  }
+
+  .Contact-row{
+    padding-left: 0;
+  }
+  
+}
