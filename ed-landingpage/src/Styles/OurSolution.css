@@ -10,43 +10,42 @@
 /* our product features styling here ... */
 
 .Our-L-section {
-  /* background: linear-gradient(
+  background: linear-gradient(
     0deg,
-    rgba(0, 212, 255, 0) 70%,
-    rgba(255, 250, 230, 1) 70%
-  ); */
-  padding: 100px 0px 0px;
-margin-top: 100px;
+    rgba(0, 212, 255, 0) 67%,
+    rgba(255, 250, 230, 1) 67%
+  );
+ 
 
 }
 
-.content {
-  padding-top: 50px;
+.Our-Solution-title {
+  padding-top: 70px;
   text-align: center;
 }
 
-.content h3 span {
+.Our-Solution-title h3 span {
   color: #fca61f;
-  font-size: 40px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: 23px;
 }
 
-.content h3 {
-  font-size: 40px;
+.Our-Solution-title h3 {
+  font-size: 35px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 23px;
 }
 
-.content p {
-  margin-top: 20px;
+.Our-Solution-title p {
+  margin-top: 30px;
   color: #333;
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 30px;
 }
 
@@ -110,7 +109,7 @@ margin-top: 100px;
     text-align: start;
     font-size: 24px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 39px; 
     text-transform: capitalize;
 }

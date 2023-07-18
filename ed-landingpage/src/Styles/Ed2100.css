@@ -10,41 +10,44 @@
 /* our product features styling here ... */
 
 .ed2100-slide-section {
-  background: linear-gradient(0deg, rgba(0,212,255,0) 43%, rgba(248,248,250,1) 43%);
-
+  background: linear-gradient(
+    0deg,
+    rgba(0, 212, 255, 0) 35%,
+    rgba(248, 248, 250, 1) 35%
+  );
 }
 
-.content {
-  padding-top: 50px;
+.Our-L-Partners {
+  padding-top: 70px;
   text-align: center;
 }
 
-.content h3 span {
+.Our-L-Partners h3 span {
   color: #fca61f;
-  font-size: 40px;
+  font-size: 35px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 23px;
 }
 
-.content h3 {
-  font-size: 40px;
+.Our-L-Partners h3 {
+  font-size: 35px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 23px;
 }
 
-.content p {
-  margin-top: 20px;
+.Our-L-Partners p {
+  margin-top: 30px;
   color: #333;
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 30px;
 }
 
-.content p strong {
+.Our-L-Partners p strong {
   color: #333;
   text-align: center;
   font-size: 18px;
@@ -68,32 +71,16 @@
   border-radius: 20px;
   border: 1px solid #d6d6d6;
   background: #fff;
-  display: flex;
-  width: 80%;
+  width: 50%;
   flex-shrink: 0;
 }
 
-/* .Our-Learning_partners.img-box-f {
-  position: relative;
-  width: 50%;
-  flex-shrink: 0;
-  border-radius: 77px 500px 500px 77px;
-  background: #d2fcff;
 
-} */
-
-/* .img-box-f {
-  width: 127px;
-  height: 212px;
-  flex-shrink: 0;
-} */
-
-.img-box-slider{
+.img-box-slider {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
-  width: 100%;
-  height: 91px;
   margin-bottom: 20px;
 }
 
@@ -102,16 +89,14 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
-
 }
 .card-txt h3 {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 28px; /* 155.556% */
+  font-weight: 500;
+  line-height: 28px; 
   text-transform: capitalize;
 }
 

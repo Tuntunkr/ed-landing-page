@@ -44,16 +44,7 @@ h6 {
   font-family: 'Montserrat', sans-serif;;
 }
 
-p {
-  font-weight: 500;
-  font-size: 16px;
-  color: var(--text-lite);
-}
 
-a {
-  text-decoration: none;
-  color: var(--primary-dark);
-}
 
 /*----------+++++ BIG SCREEN SETTING */
 @media (min-width: 1550px) and (max-width: 2561px) {
@@ -69,7 +60,7 @@ a {
 }
 
 .secGap {
-  padding: 84px 0px 1px 2px;
+  padding: 115px 0px 1px 2px;
 }
 
 /*--------+++ CUSTOM SCROLLBER */

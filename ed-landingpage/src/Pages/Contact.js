@@ -10,17 +10,19 @@ function Contact() {
      <div className="secGap">  
       <section className="container-fluid contact-section">
         <div className="container">
-          <div className="content">
+          <div className="Contact-content">
             <h3>
               <span>Get in </span> touch
             </h3>
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
-            </p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.<br/> Lorem Ipsum has been the industry's.
+              </p>
           </div>
           <div className="Contact-row">
-            <Form>
-              <Row>
+
+            <Form >
+              <Row className="container">
                 <Col xs={12} sm={12} md={6}>
                   <div>
                     <label for="mce-FNAME">
@@ -62,48 +64,51 @@ function Contact() {
                   </div>
                 </Col>
               </Row>
-              {/*  */}
               <br/>
-
-              <Row>
-                <Col>
+              <Row className="container">
+                <Col xs={12} sm={12} md={6}>
                   <div>
-                    <label for="mce-EMAIL">
-                      Email id <span className="asterisk">*</span>
-                    </label>
-                    <input
-                      type="email"
-                      value=""
-                      name="EMAIL"
-                      className="form-control"
-                      placeholder="Enter email Id"
-                      id="mce-EMAIL"
-                      required
-                    />
-                    <span
-                      id="mce-EMAIL-HELPERTEXT"
-                      className="helper_text"
-                    ></span>
-                  </div>
-                </Col>
-                <Col>
-                  <div>
-                    <label for="mce-SCHOOLNAME">
-                      Your Role at Company
+                    <label for="mce-FNAME">
+                    Email id <span className="asterisk">*</span>
                     </label>
                     <input
                       type="text"
                       value=""
-                      name="SCHOOLNAME"
+                      name="FNAME"
+                      placeholder="Enter email Id"
                       className="form-control"
-                      placeholder="Enter School name"
-                      id="mce-SCHOOLNAME"
+                      id="mce-FNAME"
                       required
                     />
+                    <span
+                      id="mce-FNAME-HELPERTEXT"
+                      className="helper_text"
+                    ></span>
+                  </div>
+                </Col>
+              
+                <Col>
+                  <div>
+                  <label for="mce-FNAME">
+                  Your Role at Company <span className="asterisk">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      value=""
+                      name="LNAME"
+                      placeholder="Enter School name"
+                      className="form-control"
+                      id="mce-LNAME"
+                    />
+                    
                    
                   </div>
                 </Col>
               </Row>
+              {/*  */}
+              <br/>
+
+              
               <br />
               <Row>
               <Col md={12}>

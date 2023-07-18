@@ -34,6 +34,7 @@ function HeroSec() {
                   <h4>Intro Video</h4>
                 </div>
               </div>
+            <p className="patent-ttile">*patent in progress</p>
             </div>
           </div>
         </div>

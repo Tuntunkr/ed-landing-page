@@ -51,7 +51,7 @@ function OurProFeature() {
               <span>Our Product</span> Features
             </h3>
             <p>
-              <strong>ed2100</strong> is an AI powered LXP (Learning Experience
+              <span>ed2100</span> is an AI powered LXP (Learning Experience
               Platform) forschools, which offers highly personalized <br />{" "}
               learning and teachingenvironment with world class EdTech solutions
               at your fingertips

@@ -14,7 +14,7 @@ function OnboardingProcess() {
                     Onboarding <span> Process</span>
                   </h1>
                   <p class="onbordingpara">
-                    Effortless Onboarding: Seamless Integration, Endless <br />
+                    Effortless Onboarding: Seamless Integration, <br /> Endless
                     Possibilities
                   </p>
                 </div>

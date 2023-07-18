@@ -18,13 +18,13 @@ function OurSolution() {
     },
     {
       titile: "Teachers professional development",
-      description: "Upgrade teaching skills of your Teachers to meet the needs of the 21st century classroom.",
+      description:
+        "Upgrade teaching skills of your Teachers to meet the needs of the 21st century classroom.",
       img: "https://imgur.com/5QawMl5.png",
     },
     {
       titile: "Proctoring solution",
-      description:
-        "Making online exams authentic through our proctoring tool.",
+      description: "Making online exams authentic through our proctoring tool.",
       img: "https://imgur.com/YlujlQl.png",
     },
     {
@@ -42,19 +42,20 @@ function OurSolution() {
   ]);
   return (
     <>
+    <div className="secGap">
+
+   
       <section className="container-fluid Our-L-section">
         <div className="container">
-          <div className="content">
+          <div className="Our-Solution-title">
             <h3>
               <span>Our</span> Solutions
             </h3>
-            
+
             <p>
-              <strong>ed2100</strong> is an AI powered LXP (Learning Experience
-              Platform) forschools, which offers highly personalized <br />{" "}
-              learning and teachingenvironment with world class EdTech solutions
-              at your fingertips
-            </p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.<br/> Lorem Ipsum has been the industry's.
+              </p>
           </div>
         </div>
         <div className="container">
@@ -65,7 +66,7 @@ function OurSolution() {
                   <Card.Img src={card.img} />
                 </div>
                 <Card.Body className="card-txt">
-                  <Card.Title className="card-title" >{card.titile}</Card.Title>
+                  <Card.Title className="card-title">{card.titile}</Card.Title>
                   <Card.Text>{card.description}</Card.Text>
                 </Card.Body>
               </Card>
@@ -73,6 +74,7 @@ function OurSolution() {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 }

@@ -11,8 +11,6 @@ import { FaBars } from "react-icons/fa";
 function Navs() {
   return (
     <>
-      {/*  */}
-    
       <nav className="navbar navbar-expand-sm bg-body-tertiary sticky-top">
         <div className="container">
           <button
@@ -35,9 +33,6 @@ function Navs() {
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div className="offcanvas-header">
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                Offcanvas
-              </h5>
               <button
                 type="button"
                 className="btn-close"
@@ -46,7 +41,7 @@ function Navs() {
               ></button>
             </div>
             <div className="offcanvas-body">
-              <ul className="navbar-nav justify-content-end gap-3 flex-grow-1 pe-3">
+              <ul className="navbar-nav justify-content-end gap-4 flex-grow-1 pe-3">
                 <li className="nav-item"  data-bs-dismiss="offcanvas"
                 aria-label="Close"
                 >
