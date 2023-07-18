@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');/* font-family: 'Gothic A1', sans-serif; */
+
+/* font-family: 'Lato', sans-serif; */
+
+:root {
+  /* -- Color  */
+  --primary: #000;
+  --primary-lite: #ffffff;
+  --secoundry: #FCA61F;
+
+  /* -- Text color */
+  
+
+}
+/*----------+++++ BASIC SETTING */
+* {
+  
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
+.row {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;;
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-lite);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-dark);
+}
+
+/*----------+++++ BIG SCREEN SETTING */
+@media (min-width: 1550px) and (max-width: 2561px) {
+  :is(.container, .container-fluid) {
+    max-width: 100%;
+    width: 80%;
+  }
+}
+
+/*----------+++++ SECTION SPACING */
+.secGap-mini {
+  padding: 20px 12px;
+}
+
+.secGap {
+  padding: 84px 0px 1px 2px;
+}
+
+/*--------+++ CUSTOM SCROLLBER */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 95%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 858px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 838px) {
+  .secGap {
+    padding: 50px 12px;
+  }
+}
+
+@media (max-width: 510px) {
+  .container {
+    width: 100%;
+  }
+}

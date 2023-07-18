@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* our product features styling here ... */
+
+.ed2100-program-sections {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 212, 255, 0) 1%,
+    rgba(248, 248, 250, 1) 1%
+    
+  );
+  /* height: 200px; */
+  /* margin-bottom: 2rem; */
+}
+
+.content {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.content h3 span {
+  color: #fca61f;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.content h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.content p {
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.content p strong {
+  color: #333;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+/* .img-box-slider-program {
+  width: 295px;
+  height: 361px;
+  flex-shrink: 0;
+  border-radius: 6px;
+} */
+
+/* swiper slider styling here ... */
+
+.slider-container {
+  animation: ourvalues-marquee 30s linear infinite;
+  display: flex;
+}
+@keyframes ourvalues-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-3864px);
+  }
+}
+@media screen and (max-width: 600px) {
+  @keyframes ourvalues-marquee {
+    0% {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-2520px);
+    }
+  }
+}
+
+
+
+/* //   <SwiperSlide>
+
+//   <img src={image4} alt="slide_image" />
+// </SwiperSlide>  */

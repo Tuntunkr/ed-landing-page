@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* our product features styling here ... */
+
+.Our-L-section {
+  /* background: linear-gradient(
+    0deg,
+    rgba(0, 212, 255, 0) 70%,
+    rgba(255, 250, 230, 1) 70%
+  ); */
+  padding: 100px 0px 0px;
+margin-top: 100px;
+
+}
+
+.content {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.content h3 span {
+  color: #fca61f;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.content h3 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.content p {
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.content p strong {
+  color: #333;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+/*  */
+
+.card-container {
+  text-align: center;
+}
+
+.feature-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.Our-S-card {
+  border-radius: 10px;
+  border: 1px solid #d6d6d6;
+  background: #fff;
+  display: flex;
+  /* gap: 20px; */  
+
+}
+
+
+
+.Our-S-card .img-box-f {
+  position: relative;
+  width: 30%;
+  flex-shrink: 0;
+  border-radius: 77px 500px 500px 77px;
+  background: #d2fcff;
+}
+
+.img-box-f {
+  width: 147px;
+  height: 212px;
+  flex-shrink: 0;
+}
+
+.img-box{
+    
+    width: 100%;
+    padding: 20px;
+}
+
+.card-txt{
+  margin-top: -25px;
+}
+
+.card-txt .card-title {
+    color: var(--dark-gary, #333);
+    text-align: start;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px; 
+    text-transform: capitalize;
+}
+
+.card-txt p {
+  color: #666;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
