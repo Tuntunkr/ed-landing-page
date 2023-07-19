@@ -211,13 +211,12 @@ footer .logo img {
 }
 
 /* .widget3{
-  margin-top: 7px;
-  margin-left: 140px;
+  margin-right: -400px;
+  border: 2px solid red;
+
 } */
 
-.widget4{
-  margin-right: -20px;
-}
+
 
 .footer .widget4 h5 {
   margin-bottom: 22px;

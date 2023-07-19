@@ -33,6 +33,7 @@
 }
 
 .content-edpropgram h3 {
+  color: #333;
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
@@ -67,14 +68,11 @@
 
 /* swiper slider styling here ... */
 
-
-
 .slider-container {
   width: 100%;
   animation: ourvalues-marquee 30s linear infinite;
   display: flex;
   gap: 20px;
-
 }
 @keyframes ourvalues-marquee {
   0% {
@@ -83,8 +81,8 @@
   to {
     transform: translateX(-3864px);
   }
-  
 }
+
 @media screen and (max-width: 600px) {
   @keyframes ourvalues-marquee {
     0% {
@@ -93,6 +91,24 @@
     to {
       transform: translateX(-2520px);
     }
+  }
+
+
+  .content-edpropgram h3 span {
+    color: #fca61f !important;
+    text-align: center;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px;
+  }
+  .content-edpropgram h3  {
+    color: #333 !important;
+    text-align: center;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px;
   }
 }
 

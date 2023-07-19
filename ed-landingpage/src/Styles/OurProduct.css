@@ -111,9 +111,9 @@
   bottom: 0px;
   left: 5px; */
   width: 150px;
-  height: 130px;
+  height: 160px;
   flex-shrink: 0;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .Our-txt h3 {
   text-align: start;
@@ -131,10 +131,10 @@
 .Our-txt p {
   color: #666;
 
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 22px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 /* styling here  maincard */
@@ -152,6 +152,10 @@ line-height: 22px;
   .process-container {
     background-size: contain;
   }
+
+  .feature-section {
+    padding: inherit;
+  }
   .content h3 span {
     text-align: center;
     font-size: 24px;
@@ -167,10 +171,15 @@ line-height: 22px;
     line-height: 51px;
   }
 
-  .content p{
+  .content p {
     margin-left: 0;
     margin-top: 0;
-    text-align: center;
+    text-align: -webkit-left;
+    margin-left: 20px;
+  }
+
+  .Our-txt p {
+    display: none;
   }
   /* .container{
     padding: initial;
@@ -182,12 +191,25 @@ line-height: 22px;
     gap: 20px;
   }
   .content {
-    padding:0;
+    padding: 0;
     padding-top: 30px;
   }
 
-  .feature-card{
+  .feature-card {
     padding: initial;
-    width: 350px;
+    width: 388px;
+    height: 82px;
+  }
+
+  .img-box-f {
+    margin-top: initial;
+    width: 88px;
+    height: 75px;
+  }
+
+  .img-box-f img{
+    margin: auto;
+    height:inherit;
+    width: 100%;
   }
 }

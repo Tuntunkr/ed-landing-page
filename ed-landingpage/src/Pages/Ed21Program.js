@@ -24,7 +24,6 @@ function Ed21Program() {
           <div class="slider-container">
             <div class="slider-item">
             <img src={image1} alt="slide_image" />
-
             </div>
             <div class="slider-item">
             <img src={image2} alt="slide_image" />

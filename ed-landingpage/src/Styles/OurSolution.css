@@ -15,8 +15,6 @@
     rgba(0, 212, 255, 0) 67%,
     rgba(255, 250, 230, 1) 67%
   );
- 
-
 }
 
 .Our-Solution-title {
@@ -49,6 +47,14 @@
   line-height: 30px;
 }
 
+.card-mapra {
+  color: #5b5b5b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+
 .content p strong {
   color: #333;
   text-align: center;
@@ -64,7 +70,7 @@
   text-align: center;
 }
 
-.feature-row {
+.Our-S-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -74,11 +80,8 @@
   border: 1px solid #d6d6d6;
   background: #fff;
   display: flex;
-  /* gap: 20px; */  
-
+  /* gap: 20px; */
 }
-
-
 
 .Our-S-card .img-box-f {
   position: relative;
@@ -94,24 +97,27 @@
   flex-shrink: 0;
 }
 
-.img-box{
-    
-    width: 100%;
-    padding: 20px;
+.img-box {
+  width: 100%;
+  padding: 20px;
 }
 
-.card-txt{
+.secons-card-image{
+  display: none;
+}
+
+.card-txt {
   margin-top: -25px;
 }
 
 .card-txt .card-title {
-    color: var(--dark-gary, #333);
-    text-align: start;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 39px; 
-    text-transform: capitalize;
+  color: var(--dark-gary, #333);
+  text-align: start;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39px;
+  text-transform: capitalize;
 }
 
 .card-txt p {
@@ -121,3 +127,93 @@
   font-weight: 500;
   line-height: 24px;
 }
+
+@media only screen and (max-width: 600px) {
+  .Our-L-section {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 212, 255, 0) 40%,
+      rgba(248, 248, 250, 1) 40%
+    );
+    margin-top: 30px;
+  }
+  .Our-Solution-title {
+    padding-top: 30px;
+  }
+  .Our-Solution-title h3 {
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+  .Our-Solution-title h3 span {
+    color: #fca61f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px;
+    text-transform: capitalize;
+  }
+
+  .Our-Solution-title p {
+    margin-top: 5px;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .Our-S-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .Our-S-card {
+    display: flex;
+    width: 165px;
+    height: 186px;
+    flex-shrink: 0;
+    /* gap: 20px; */
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+  }
+
+  .card-txt .card-title {
+    /* margin-top: 5px; */
+    color: #333;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+  }
+
+  .card-mapra {
+    display: none;
+  }
+
+  .img-box img{
+    display: none;
+  }
+
+  .secons-card-image{
+    text-align: center;
+    margin-top: -15px;
+    display: block;
+  }
+}
+
+/* .Our-L-section {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 212, 255, 0) 67%,
+    rgba(255, 250, 230, 1) 67%
+  );
+ 
+
+} */

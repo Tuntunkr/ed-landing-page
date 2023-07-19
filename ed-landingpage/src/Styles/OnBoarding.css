@@ -49,6 +49,10 @@
     color: #ffffff;
     position: relative;
   }
+
+  .second-svg{
+    display: none;
+  }
   
   
   .svg-section{
@@ -77,3 +81,23 @@
       stroke-dashoffset: 0;
     }
   }
+
+
+
+
+@media (max-width: 600px) {
+  .process-container {
+    background-size: contain;
+  }
+
+  .svg-section{
+    display: none;
+  }
+
+  .second-svg {
+    display: block ;
+    width: 100%;
+    height: fit-content;
+  }
+  
+}

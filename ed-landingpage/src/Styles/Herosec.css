@@ -221,4 +221,8 @@
     font-weight: 500;
     line-height: 34px;
   }
+  .patent-ttile{
+    margin-left: 0;
+    display: none;
+  }
 }

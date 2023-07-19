@@ -129,6 +129,7 @@
     border: 2px solid red;
   }
   .Artificial-title h3 {
+    margin-top: 10px;
     color: #fca61f;
     font-size: 25px;
     font-style: normal;
@@ -144,7 +145,7 @@
     line-height: 51px;
   }
 
-  .process-mapra{
+  .process-mapra {
     margin-top: auto;
   }
 
@@ -162,14 +163,22 @@
     margin-top: auto;
     padding: 0;
   }
-  .Ai-Edu-title h3{
+  .Ai-Edu-title h3 {
     padding-left: inherit;
   }
-  .Ailist{
+  .Ailist {
     padding-left: inherit;
-
   }
-  .process-content{
+  .process-content {
     padding: 0;
+  }
+  .Artificial-image img{
+    width: 439.437px;
+    height: 284px;
+  }
+  .Artificial-image-second img {
+    width: 439.437px;
+    height: 284px;
+    margin-bottom: 50px;
   }
 }
