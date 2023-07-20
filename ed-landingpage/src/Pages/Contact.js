@@ -114,10 +114,10 @@ function Contact() {
               <Col md={12}>
 
                 <div className="textareafield">
-                  <label for="mce-REQUIREMEN">Type Message</label>
+                  <label for="mce-REQUIREMEN" className="type-title">Type Message</label>
                   <textarea
                     rows="4"
-                    cols="50"
+                    cols="40"
                     type="text"
                     value=""
                     name="comment"

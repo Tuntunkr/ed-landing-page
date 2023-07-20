@@ -1,9 +1,5 @@
 import React from "react";
 import "./Nav.css";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-// import "../Styles/Header.css";
 import logo from "../assets/logo.svg";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
@@ -27,12 +23,12 @@ function Navs() {
             <img src={logo} alt="logo" />
           </Link>
           <div
-            className="offcanvas offcanvas-start"
+            className="offcanvas offcanvas-start "
             tabindex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
-            <div className="offcanvas-header">
+            <div className="offcanvas-header justify-content-end  ">
               <button
                 type="button"
                 className="btn-close"
@@ -40,7 +36,7 @@ function Navs() {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="offcanvas-body">
+            <div className="offcanvas-body ">
               <ul className="navbar-nav justify-content-end gap-4 flex-grow-1 pe-3">
                 <li className="nav-item"  data-bs-dismiss="offcanvas"
                 aria-label="Close"
@@ -55,22 +51,26 @@ function Navs() {
                     About us
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link to="explore" className="list">
+                <li className="nav-item" ata-bs-dismiss="offcanvas"
+                aria-label="Close">
+                  <Link to="explore" className="list" >
                     Explore
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" ata-bs-dismiss="offcanvas"
+                aria-label="Close">
                   <Link to="edtechpartner" className="list">
                     EdTech Partners
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" ata-bs-dismiss="offcanvas"
+                aria-label="Close">
                   <Link to="media" className="list">
                     Media
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" ata-bs-dismiss="offcanvas"
+                aria-label="Close">
                   <Link to="contact" className="list">
                     Contact us
                   </Link>

@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 /* our product features styling here ... */
@@ -22,9 +19,9 @@
   text-align: center;
 }
 
-.Our-S-row{
+.Our-S-row {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -78,7 +75,6 @@
   border: 1px solid #d6d6d6;
   background: #fff;
   display: flex;
-  /* gap: 20px; */
 }
 
 .Our-S-card .img-box-f {
@@ -98,10 +94,6 @@
 .img-box {
   width: 100%;
   padding: 20px;
-}
-
-.card-txt {
-  margin-top: -25px;
 }
 
 .card-txt .card-title {
@@ -129,13 +121,11 @@
       rgba(0, 212, 255, 0) 40%,
       rgba(248, 248, 250, 1) 40%
     );
-    /* margin-top: 30px;¸¸¸¸¸ */
-    /* margin-bottom: 3rem; */
   }
-  
-  .Our-S-row{
+
+  .Our-S-row {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }
 
@@ -159,13 +149,3 @@
     margin-top: 15px;
   }
 }
-
-/* .Our-L-section {
-  background: linear-gradient(
-    0deg,
-    rgba(0, 212, 255, 0) 67%,
-    rgba(255, 250, 230, 1) 67%
-  );
- 
-
-} */

@@ -24,6 +24,8 @@
 
 }
 
+
+
 .bg-body {
 
   background: #fff;
@@ -36,6 +38,7 @@
   font-weight: 500;
   line-height: normal;
 }
+
 
 nav .navbar-toggler {
   padding: 0;

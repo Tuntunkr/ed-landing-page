@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -29,7 +26,6 @@
 
 .secGaps {
   padding: 38px 0px 1px 2px;
-  /* border: 2px solid red; */
 }
 
 .secGaptwo {
@@ -45,10 +41,6 @@
   max-width: 630px;
   width: 100%;
 }
-
-/* .process-container:nth-of-type(odd) .process-image img {
-  margin-left: auto;
-} */
 
 .process-mapra {
   margin-top: 30px;
@@ -100,13 +92,10 @@
   display: flex;
   gap: 15px;
   padding-left: 80px;
-
-  /* margin-top: 20px; */
 }
 
 .Ailist p {
   text-align: start;
-  /* margin-top: 10px; */
   color: #5b5b5b;
   font-size: 16px;
   font-style: normal;
@@ -154,7 +143,6 @@
   }
 
   .Ailist img {
-    /* margin:0; */
     margin-left: 10px;
     text-align: center;
   }
@@ -172,7 +160,7 @@
   .process-content {
     padding: 0;
   }
-  .Artificial-image img{
+  .Artificial-image img {
     width: 439.437px;
     height: 284px;
   }

@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
 }
 
 /* our product features styling here ... */
@@ -71,10 +68,9 @@
   border-radius: 20px;
   border: 1px solid #d6d6d6;
   background: #fff;
-  width: 50%;
+
   flex-shrink: 0;
 }
-
 
 .img-box-slider {
   display: flex;
@@ -96,7 +92,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; 
+  line-height: 28px;
   text-transform: capitalize;
 }
 
@@ -108,15 +104,39 @@
   line-height: 24px;
 }
 
+.swiper-button-next {
+  background-image: url("../assets/left.svg");
+  background-repeat: no-repeat;
+  background-size: cover auto;
+  background-position: center;
+  width: 50px !important;
+  height: 100px !important;
+  margin-top: -45px !important;
+}
 
+.swiper-button-prev {
+  background-image: url("../assets/right.svg");
+  background-repeat: no-repeat;
+  background-size: cover auto;
+  background-position: center;
+  width: 50px !important;
+  height: 100px !important;
+  margin-top: -45px !important;
+}
 
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev::after {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .process-container {
     background-size: contain;
   }
 
-  .ed2100-slide-section{
+  .ed2100-slide-section {
     display: none;
   }
   .Our-L-Partners {
@@ -138,14 +158,11 @@
     line-height: 51px;
   }
 
-  .Our-L-Partners p{
+  .Our-L-Partners p {
     margin-left: 0;
     margin-top: 0;
     text-align: center;
   }
-  /* .container{
-    padding: initial;
-  } */
 
   .feature-row {
     display: grid;
@@ -153,7 +170,7 @@
     gap: 20px;
   }
   .content {
-    padding:0;
+    padding: 0;
     padding-top: 30px;
   }
 }

@@ -87,7 +87,6 @@ function OurProFeature() {
                       }}
                     >
                       <img src={card.img} alt="imgs" />
-
                     </div>
                     <div className="Our-txt">
                       <h3>{card.titile}</h3>
@@ -98,14 +97,35 @@ function OurProFeature() {
               })}
             </div>
           </div>
+
+          {/*  */}
+          {/* <div className="container">
+            <div className="feature-row">
+              <div className="feature-card">
+                <div className="img-box-bider">
+                  <img src={img1} alt="imgs" />
+                </div>
+                <div className="Our-txt">
+                  <h3> Intelligent learning</h3>
+                  <p className="mobile-card1-mapra">
+                    AI enabled personalized education through profiling,
+                    learning pathways, recommendation engine, assignments &
+                    personal feedbacks
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+          {/*  */}
+
           <div className="mobileViews-card">
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header className="mobile-card1 ">
-                <div className="border-design">
-
-                  <img src={img1} alt="img" />
-                </div>
+                  <div className="border-design">
+                    <img src={img1} alt="img" />
+                  </div>
                   <h3> Intelligent learning</h3>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -123,9 +143,9 @@ function OurProFeature() {
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header className="mobile-card1 ">
-                <div className="border-design1">
-                  <img src={img2} alt="img" />
-                </div>
+                  <div className="border-design1">
+                    <img src={img2} alt="img" />
+                  </div>
                   <h3> Single Window Access</h3>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -142,9 +162,9 @@ function OurProFeature() {
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header className="mobile-card1 ">
-                <div className="border-design2">
-                  <img src={img3} alt="img" />
-                </div>
+                  <div className="border-design2">
+                    <img src={img3} alt="img" />
+                  </div>
                   <h3> Immersive Learning</h3>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -161,13 +181,15 @@ function OurProFeature() {
               <Accordion.Item eventKey="1">
                 <Accordion.Header className="mobile-card1 ">
                   <div className="border-design3">
-                  <img src={img4} alt="img" />
-                </div>
+                    <img src={img4} alt="img" />
+                  </div>
                   <h3>Intelligent teaching</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
-                  as per individual student's learning needs, course recommendations, auto lesson plans, scheduling, regulated lesson flows, auto Quiz, assessments & grading.
+                    as per individual student's learning needs, course
+                    recommendations, auto lesson plans, scheduling, regulated
+                    lesson flows, auto Quiz, assessments & grading.
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
@@ -179,13 +201,14 @@ function OurProFeature() {
               <Accordion.Item eventKey="1">
                 <Accordion.Header className="mobile-card1 ">
                   <div className="border-design4">
-                  <img src={img5} alt="img" />
-                </div>
+                    <img src={img5} alt="img" />
+                  </div>
                   <h3> Consolidated growth mapping</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
-                  For all programs on a single platform for 360° development visibility
+                    For all programs on a single platform for 360° development
+                    visibility
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
@@ -193,17 +216,18 @@ function OurProFeature() {
           </div>
           {/* 6 */}
           <div className="mobileViews-card">
-            <Accordion defaultActiveKey="0" >
+            <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header className="mobile-card1 ">
                   <div className="border-design5">
-                  <img src={img6} alt="img" />
-                </div>
+                    <img src={img6} alt="img" />
+                  </div>
                   <h3> Consolidated educational records</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
-                  All educational records including certificate, transcripts, and growth analysis will be available here.
+                    All educational records including certificate, transcripts,
+                    and growth analysis will be available here.
                   </p>
                 </Accordion.Body>
               </Accordion.Item>

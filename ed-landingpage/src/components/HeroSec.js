@@ -9,7 +9,7 @@ import Contact from "../Pages/Contact";
 import Ed21Program from "../Pages/Ed21Program";
 import OurProFeature from "../Pages/OurProFeature";
 import VideoFrame from "../Pages/VideoFrame";
-import { Link } from "react-router-dom";
+
 
 function HeroSec(props) {
   const [modal, setModal] = useState(false);
@@ -34,14 +34,15 @@ function HeroSec(props) {
               </div>
               <div className="players">
                 <button className="primary-btns">Book a demo</button>
-
                 <div className="playicons" >
-                  <img  src={playicons} alt="icons" />
-                  <h4>Intro Video</h4>
+                <VideoFrame />
+                  {/* <img  src={playicons} alt="icons" />
+                  <h4>Intro Video</h4> */}
                  {/* { modal && <VideoFrame setModal={setModal} /> } onClick={()=>setModal(true)}  */}
                 </div>
               </div>
               <p className="patent-ttile">*patent in progress</p>
+             
             </div>
           </div>
         </div>

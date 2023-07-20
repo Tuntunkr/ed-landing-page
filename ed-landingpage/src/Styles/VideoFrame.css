@@ -1,16 +1,11 @@
-.App {
-    font-family: sans-serif;
-    text-align: center;
-  }
+
   
   .modal__bg {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(28, 28, 28, 0.19);
-    backdrop-filter: blur(6px);
     opacity: 1;
     animation-timing-function: ease-out;
     animation-duration: 0.3s;
@@ -32,13 +27,8 @@
   
   .modal__content {
     width: 800px;
-    height: 500px;
-    box-shadow: 0px 100px 80px rgba(184, 184, 184, 0.07),
-      0px 25.8162px 19px 4px rgba(178, 178, 178, 0.0456112),
-      0px 7.779px 7.30492px rgba(0, 0, 0, 0.035),
-      0px 1.48838px 2.0843px rgba(0, 0, 0, 0.0243888);
+    height: 400px;
     border-radius: 20px;
-    background: transparent;
     color: #000;
     margin: 0rem 4rem;
   }
@@ -49,6 +39,7 @@
     cursor: pointer;
     position: relative;
     bottom: 50px;
+    left: 750px;
     width: 32px;
     height: 32px;
     padding: 0;
@@ -89,28 +80,38 @@
   
   @media screen and (max-width: 800px) {
     .modal__content {
-      margin: 0rem 1rem;
+      margin: 0rem ;
       width: 100%;
+
     }
     .modal__video-style {
-      width: 100%;
+      width: 83%;
+      margin: auto;
+      margin-left: 20px;
     }
   }
   
   @media screen and (max-width: 499px) {
     .modal__content {
       background: transparent;
-      height: auto;
     }
     .modal__video-align {
       bottom: 0px;
     }
     .modal__video-style {
       height: auto;
+      width: 90%;
+
+    }
+    .modal__close{
+      left: 330px;
+      bottom: 20px;
     }
   }
 
-
+.modal-card{
+  cursor: pointer;
+}
 
   .playicons {
     display: flex;
@@ -120,7 +121,7 @@
   
   .playicons h4 {
     margin-top: 20px;
-    color: #fff;
+    color: #fff;  
     font-size: 16px;
     font-style: normal;
     font-weight: 500;

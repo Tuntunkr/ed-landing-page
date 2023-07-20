@@ -15,8 +15,6 @@
     rgba(0, 212, 255, 0) 40%,
     rgba(248, 248, 250, 1) 40%
   );
-  /* height: 200px; */
-  /* margin-bottom: 2rem; */
 }
 
 .content-edpropgram {
@@ -59,20 +57,10 @@
   line-height: 30px;
 }
 
-.card-size{
+.card-size {
   width: 110%;
-  /* display: grid; */
-  /* grid-template-columns: repeat(1,1fr); */
-  /* grid-template-rows: repeat(2,1fr); */
   gap: 1px;
 }
-
-/* .img-box-slider-program {
-  width: 295px;
-  height: 361px;
-  flex-shrink: 0;
-  border-radius: 6px;
-} */
 
 /* swiper slider styling here ... */
 
@@ -101,6 +89,12 @@
     }
   }
 
+  .card-size {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+  }
 
   .content-edpropgram h3 span {
     color: #fca61f !important;
@@ -110,7 +104,7 @@
     font-weight: 700;
     line-height: 51px;
   }
-  .content-edpropgram h3  {
+  .content-edpropgram h3 {
     color: #333 !important;
     text-align: center;
     font-size: 24px !important;
@@ -119,8 +113,3 @@
     line-height: 51px;
   }
 }
-
-/* //   <SwiperSlide>
-
-//   <img src={image4} alt="slide_image" />
-// </SwiperSlide>  */

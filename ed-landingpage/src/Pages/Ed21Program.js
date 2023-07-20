@@ -13,9 +13,9 @@ import Slider from "react-slick";
 function Ed21Program() {
   const settings = {
     // dots: true,
-
+    spaceBetween:10,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 4.5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -40,28 +40,34 @@ function Ed21Program() {
           </div>
           {/*  */}
 
-          <div className="container">
-            <Slider {...settings} className="card-size">
+          
+            <Slider {...settings} >
               <div>
-                <img src={image1} alt="slide_image" />
+
+              <img src={image1} alt="slide_image" />
+              </div>
+
+              <div>
+              <img src={image2} alt="slide_image" />
               </div>
               <div>
-                <img src={image2} alt="slide_image" />
+
+              <img src={image3} alt="slide_image" />
               </div>
               <div>
-                <img src={image3} alt="slide_image" />
+
+              <img src={image3} alt="slide_image" />
               </div>
               <div>
-                <img src={image3} alt="slide_image" />
+
+              <img src={image4} alt="slide_image" />
               </div>
               <div>
-                <img src={image4} alt="slide_image" />
-              </div>
-              <div>
-                <img src={image3} alt="slide_image" />
+
+              <img src={image3} alt="slide_image" />
               </div>
             </Slider>
-          </div>
+
 
           {/*  */}
         </section>
