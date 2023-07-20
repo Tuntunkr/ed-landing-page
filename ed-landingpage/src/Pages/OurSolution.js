@@ -33,9 +33,9 @@ function OurSolution() {
                 <div className="img-box">
                   <Card.Img src={image1} />
                 </div>
-                <div className="secons-card-image">
+                {/* <div className="secons-card-image">
                   <img src={img1} alt="mobile-img" />
-                </div>
+                </div> */}
                 <Card.Body className="card-txt">
                   <Card.Title className="card-title">
                     Global Recognition for schools
@@ -52,9 +52,9 @@ function OurSolution() {
                 <div className="img-box">
                   <Card.Img src={image2} />
                 </div>
-                <div className="secons-card-image">
+                {/* <div className="secons-card-image">
                   <img src={img1} alt="mobile-img" />
-                </div>
+                </div> */}
                 <Card.Body className="card-txt">
                   <Card.Title className="card-title">
                     Alumni <br /> Management
@@ -71,9 +71,9 @@ function OurSolution() {
                 <div className="img-box">
                   <Card.Img src={image3} />
                 </div>
-                <div className="secons-card-image">
+                {/* <div className="secons-card-image">
                   <img src={img1} alt="mobile-img" />
-                </div>
+                </div> */}
                 <Card.Body className="card-txt">
                   <Card.Title className="card-title">
                     Teachers professional development
@@ -90,9 +90,9 @@ function OurSolution() {
                 <div className="img-box">
                   <Card.Img src={image4} />
                 </div>
-                <div className="secons-card-image">
+                {/* <div className="secons-card-image">
                   <img src={img1} alt="mobile-img" />
-                </div>
+                </div> */}
                 <Card.Body className="card-txt">
                   <Card.Title className="card-title">
                     Proctoring solution
@@ -109,9 +109,9 @@ function OurSolution() {
                 <div className="img-box">
                   <Card.Img src={image3} />
                 </div>
-                <div className="secons-card-image">
+                {/* <div className="secons-card-image">
                   <img src={img1} alt="mobile-img" />
-                </div>
+                </div> */}
                 <Card.Body className="card-txt">
                   <Card.Title className="card-title">
                     Hobby Center & Tech Hubs
@@ -128,9 +128,9 @@ function OurSolution() {
                 <div className="img-box">
                   <Card.Img src={image5} />
                 </div>
-                <div className="secons-card-image">
+                {/* <div className="secons-card-image">
                   <img src={img1} alt="mobile-img" />
-                </div>
+                </div> */}
                 <Card.Body className="card-txt">
                   <Card.Title className="card-title">
                     College admissions

@@ -4,7 +4,8 @@ import AI from "../assets/AI.png";
 import AI2 from "../assets/Ai2.png";
 import aicons from "../assets/aicons.svg";
 
-function AboutUs() {
+
+function AboutUs(props) {
   return (
     <>
       {/* 1nd Process start here ... */}
@@ -69,6 +70,7 @@ function AboutUs() {
           </div>
         </div>
       </div>
+     
     </>
   );
 }

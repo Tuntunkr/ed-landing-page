@@ -173,5 +173,10 @@ select ::-ms-expand {
   .Contact-row{
     padding-left: 0;
   }
+
+  .form-control {
+    width:113%;
+    height: 63px;
+  }
   
 }

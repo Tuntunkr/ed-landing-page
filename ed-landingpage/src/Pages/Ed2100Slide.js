@@ -20,6 +20,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Ed2100Slide() {
 
+  const settings = {
+    className: "center",
+    infinite: true,
+    centerPadding: "60px",
+    slidesToShow: 5,
+    swipeToSlide: true,
+    afterChange: function(index) {
+      console.log(
+        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+      );
+    }
+  };
+
   const arrowbtn=()=>{
     <>
 
@@ -42,6 +55,10 @@ function Ed2100Slide() {
               </p>
           </div>
         </div>
+
+        {/*  */}
+
+        {/*  */}
     <div className="container py-4 px-4 ">
       <Swiper
         // install Swiper modules
@@ -58,7 +75,51 @@ function Ed2100Slide() {
             <div className="img-box-slider">
               <img src={image1} />
             </div>
-            <div className="card-txt">
+            <div className="card-txts">
+              <h3 className="card-title">India</h3>
+              <p>JoinBotics</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="Our-Learning_partners">
+            <div className="img-box-slider">
+              <img src={image2} />
+            </div>
+            <div className="card-txts">
+              <h3 className="card-title">India</h3>
+              <p>JoinBotics</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="Our-Learning_partners">
+            <div className="img-box-slider">
+              <img src={image3} />
+            </div>
+            <div className="card-txts">
+              <h3 className="card-title">India</h3>
+              <p>JoinBotics</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="Our-Learning_partners">
+            <div className="img-box-slider">
+              <img src={image4} />
+            </div>
+            <div className="card-txts">
+              <h3 className="card-title">India</h3>
+              <p>JoinBotics</p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="Our-Learning_partners">
+            <div className="img-box-slider">
+              <img src={image5} />
+            </div>
+            <div className="card-txts">
               <h3 className="card-title">India</h3>
               <p>JoinBotics</p>
             </div>
@@ -69,7 +130,7 @@ function Ed2100Slide() {
             <div className="img-box-slider">
               <img src={image1} />
             </div>
-            <div className="card-txt">
+            <div className="card-txts">
               <h3 className="card-title">India</h3>
               <p>JoinBotics</p>
             </div>
@@ -80,51 +141,7 @@ function Ed2100Slide() {
             <div className="img-box-slider">
               <img src={image1} />
             </div>
-            <div className="card-txt">
-              <h3 className="card-title">India</h3>
-              <p>JoinBotics</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Our-Learning_partners">
-            <div className="img-box-slider">
-              <img src={image1} />
-            </div>
-            <div className="card-txt">
-              <h3 className="card-title">India</h3>
-              <p>JoinBotics</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Our-Learning_partners">
-            <div className="img-box-slider">
-              <img src={image1} />
-            </div>
-            <div className="card-txt">
-              <h3 className="card-title">India</h3>
-              <p>JoinBotics</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Our-Learning_partners">
-            <div className="img-box-slider">
-              <img src={image1} />
-            </div>
-            <div className="card-txt">
-              <h3 className="card-title">India</h3>
-              <p>JoinBotics</p>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="Our-Learning_partners">
-            <div className="img-box-slider">
-              <img src={image1} />
-            </div>
-            <div className="card-txt">
+            <div className="card-txts">
               <h3 className="card-title">India</h3>
               <p>JoinBotics</p>
             </div>

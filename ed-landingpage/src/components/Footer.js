@@ -16,7 +16,7 @@ function Footer() {
               <div className="col-md-6">
                 <div>
                   <div className="widget1">
-                    <div className="logo">
+                    <div className="footer-logo">
                       <img src={logo} className="img-fluid" alt="" />
                     </div>
                     <p className="footdesrption">

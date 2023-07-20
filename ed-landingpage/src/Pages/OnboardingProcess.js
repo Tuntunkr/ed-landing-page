@@ -526,8 +526,8 @@ function OnboardingProcess() {
                 </div>
                   <div className="second-svg">
                     <svg
-                      width="430"
-                      height="1146"
+                      width="350"
+                      height="1100"
                       viewBox="0 0 430 1146"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"

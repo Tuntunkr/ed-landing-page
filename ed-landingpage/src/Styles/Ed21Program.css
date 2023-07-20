@@ -59,6 +59,14 @@
   line-height: 30px;
 }
 
+.card-size{
+  width: 110%;
+  /* display: grid; */
+  /* grid-template-columns: repeat(1,1fr); */
+  /* grid-template-rows: repeat(2,1fr); */
+  gap: 1px;
+}
+
 /* .img-box-slider-program {
   width: 295px;
   height: 361px;

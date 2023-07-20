@@ -22,6 +22,12 @@
   text-align: center;
 }
 
+.Our-S-row{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
 .Our-Solution-title h3 span {
   color: #fca61f;
   font-size: 35px;
@@ -47,14 +53,6 @@
   line-height: 30px;
 }
 
-.card-mapra {
-  color: #5b5b5b;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 27px;
-}
-
 .content p strong {
   color: #333;
   text-align: center;
@@ -70,7 +68,7 @@
   text-align: center;
 }
 
-.Our-S-row {
+.feature-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -102,10 +100,6 @@
   padding: 20px;
 }
 
-.secons-card-image{
-  display: none;
-}
-
 .card-txt {
   margin-top: -25px;
 }
@@ -135,11 +129,16 @@
       rgba(0, 212, 255, 0) 40%,
       rgba(248, 248, 250, 1) 40%
     );
-    margin-top: 30px;
+    /* margin-top: 30px;¸¸¸¸¸ */
+    /* margin-bottom: 3rem; */
   }
-  .Our-Solution-title {
-    padding-top: 30px;
+  
+  .Our-S-row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
   }
+
   .Our-Solution-title h3 {
     color: #333;
     font-size: 24px;
@@ -156,55 +155,8 @@
     line-height: 51px;
     text-transform: capitalize;
   }
-
-  .Our-Solution-title p {
-    margin-top: 5px;
-    color: #333;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-  }
-  .Our-S-row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
   .Our-S-card {
-    display: flex;
-    width: 165px;
-    height: 186px;
-    flex-shrink: 0;
-    /* gap: 20px; */
-    border-radius: 10px;
-    border: 1px solid #d6d6d6;
-    background: #fff;
-  }
-
-  .card-txt .card-title {
-    /* margin-top: 5px; */
-    color: #333;
-    text-align: center;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 550;
-    line-height: 24px; /* 160% */
-    text-transform: capitalize;
-  }
-
-  .card-mapra {
-    display: none;
-  }
-
-  .img-box img{
-    display: none;
-  }
-
-  .secons-card-image{
-    text-align: center;
-    margin-top: -15px;
-    display: block;
+    margin-top: 15px;
   }
 }
 

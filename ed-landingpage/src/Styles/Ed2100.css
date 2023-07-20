@@ -84,11 +84,11 @@
   margin-bottom: 20px;
 }
 
-.card-txt {
+.card-txts {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
 }
 .card-txt h3 {
   margin-top: 10px;
@@ -114,6 +114,10 @@
 @media only screen and (max-width: 600px) {
   .process-container {
     background-size: contain;
+  }
+
+  .ed2100-slide-section{
+    display: none;
   }
   .Our-L-Partners {
     padding-top: 10px;

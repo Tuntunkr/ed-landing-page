@@ -137,7 +137,9 @@
   line-height: 22px;
 }
 
-/* styling here  maincard */
+.mobileViews-card {
+  display: none;
+}
 
 /* media quire styling here ... */
 
@@ -155,6 +157,7 @@
 
   .feature-section {
     padding: inherit;
+
   }
   .content h3 span {
     text-align: center;
@@ -186,30 +189,190 @@
   } */
 
   .feature-row {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    display: none;
   }
   .content {
     padding: 0;
     padding-top: 30px;
   }
 
-  .feature-card {
+  /* .feature-card {
     padding: initial;
     width: 388px;
     height: 82px;
-  }
+  } */
 
-  .img-box-f {
+  /* .img-box-f {
     margin-top: initial;
     width: 88px;
     height: 75px;
+  } */
+
+  .img-box-f img {
+    margin: auto;
+    height: inherit;
+    width: 100%;
   }
 
-  .img-box-f img{
-    margin: auto;
-    height:inherit;
+  /* mobileviews card styling here .. */
+
+  .accordion-button::after {
+    display: none;
+  }
+
+  /* .accordion-item:last-of-type .accordion-button.collapsed :focus {
+    display: none;
+    border-bottom-right-radius: none;
+  } */
+
+  /* mobile card   styling here  maincard */
+
+  .mobileViews-card {
+    display: block;
+    margin: 10px;
+    /* border-radius: 32px; */
+    /* width: 100%; */
+
+  }
+
+  .accordion-item{
     width: 100%;
+    border-radius: 48px;
+    border: 2px solid var(--border, #dfdfdf);
+    background: #fff;
+  }
+  .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  .accordion-button:active {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .border-design {
+    border-radius: 77px 500px 500px 77px;
+    background: #d2fcff;
+    /* margin-left: -20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    width: 80px;
+    height: 83px;
+    flex-shrink: 0;
+  }
+  .border-design1 {
+    border-radius: 77px 500px 500px 77px;
+    background: #ecefff;
+    /* margin-left: -20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    width: 80px;
+    height: 83px;
+    flex-shrink: 0;
+  }
+  .border-design2 {
+    border-radius: 77px 500px 500px 77px;
+    background: #fff0f0;
+    /* margin-left: -20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    width: 80px;
+    height: 83px;
+    flex-shrink: 0;
+  }
+
+  .border-design3 {
+    border-radius: 77px 500px 500px 77px;
+    background: #f5fff0;
+    /* margin-left: -20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    width: 80px;
+    height: 83px;
+    flex-shrink: 0;
+  }
+  .border-design4 {
+    border-radius: 77px 500px 500px 77px;
+    background: #fff5e4;
+    /* margin-left: -20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    width: 80px;
+    height: 83px;
+    flex-shrink: 0;
+  }
+  .border-design5 {
+    border-radius: 77px 500px 500px 77px;
+    background: #e6e8e6;
+    /* margin-left: -20px; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 10;
+    width: 80px;
+    height: 83px;
+    flex-shrink: 0;
+  }
+
+  .accordion {
+    width: 100%;
+    /* border-radius: 20px; */
+    /* border: 0; */
+    /* border: 1px solid var(--border, #dfdfdf); */
+    background: #fff;
+  }
+
+  .mobile-card1 {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* gap: 50px; */
+    /* border-radius: 8px; */
+    /* border: 1px solid var(--border, #dfdfdf); */
+    background: #fff;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-card1 img {
+    width: 88px;
+    height: 70px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .mobile-card1 h3 {
+    text-align: end;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: capitalize;
+  }
+
+  .mobile-card1-mapra {
+    color: #666;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
   }
 }
