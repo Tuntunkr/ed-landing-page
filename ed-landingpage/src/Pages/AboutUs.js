@@ -24,9 +24,9 @@ function AboutUs(props) {
                   <span>Artificial</span> Intelligence
                 </h3>
                 <p className="process-mapra">
-                  It is the technology that develops systems that can perform
-                  routine and process oriented tasks, and help humans to focus
-                  on more important aspects of social, emotional and creative
+                  It is the technology that develops systems <br/> that can perform
+                  routine and process <br/> oriented tasks, and help humans to focus <br/>
+                  on more important aspects of social, <br/> emotional and creative
                   engagements
                 </p>
               </div>
@@ -55,9 +55,9 @@ function AboutUs(props) {
               {/* 3 */}
               <div className="Ailist">
                 <img src={aicons} alt="icons" />
-                <p>
-                  Education can be personalized for each student through AI. (AI
-                  does not replace teachers but enables them)
+                <p className="ed-para">
+                  Education can be personalized for each student  through AI. <br/> (AI
+                  does not replace  teachers but enables them)
                 </p>
               </div>
             </div>

@@ -5,11 +5,15 @@ import phone from "../assets/phoneicons.svg";
 import email from "../assets/emailicons.svg";
 import { Link } from "react-router-dom";
 import instalogo from "../assets/insicons.svg";
+import facebook from "../assets/facebook.svg";
+import Linkdin from "../assets/Linkdin.svg";
+import youtube from "../assets/youtube.svg";
+import twitter from "../assets/twitter.svg";
 
 function Footer() {
   return (
     <>
-     <section>
+     <section className="secGap">
         <footer className="footer">
           <div className="container">
             <div className="row">
@@ -35,18 +39,28 @@ function Footer() {
                     <div className="socialLinks">
                       <ul>
                         <li>
+                          <Link to="https://www.facebook.com/ed2100education">
+                            <img src={facebook} alt="icons" />
+                          </Link>
+                        </li>
+                        <li>
                           <Link to="https://www.instagram.com/ed2100education/">
                             <img src={instalogo} alt="icons" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="">
-                            <img src={instalogo} alt="icons" />
+                          <Link to="https://www.linkedin.com/company/ed2100education/">
+                            <img src={Linkdin} alt="icons" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="">
-                            <img src={instalogo} alt="icons" />
+                          <Link to="">
+                            <img src={youtube} alt="icons" />
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="">
+                            <img src={twitter} alt="icons" />
                           </Link>
                         </li>
                       </ul>

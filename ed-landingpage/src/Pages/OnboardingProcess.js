@@ -4,16 +4,14 @@ import "../Styles/OnBoarding.css";
 function OnboardingProcess() {
   return (
     <>
-      <section class="container-fluid bgonbording">
-        <div class="container">
-          <div class="first-div-of-onboarding-process">
-            <div class="second-div-of-onboarding-process">
-              <div class="container">
+    
+      <section class="bgonbording ">
+              <div className="container">
                 <div>
-                  <h1 class="onbording-heading">
-                    Onboarding <span> Process</span>
-                  </h1>
-                  <p class="onbordingpara">
+                  <h3 className="onbording-heading">
+                    Onboarding <span> Process </span>
+                  </h3>
+                  <p className="onbordingpara">
                     Effortless Onboarding: Seamless Integration, <br /> Endless
                     Possibilities
                   </p>
@@ -949,10 +947,10 @@ function OnboardingProcess() {
                     </svg>
                   </div>
               </div>
-            </div>
-          </div>
-        </div>
+
+
       </section>
+
     </>
   );
 }

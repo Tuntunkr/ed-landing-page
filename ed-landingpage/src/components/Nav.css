@@ -1,36 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-}
-
-:root {
-  --primary: #000;
-  --primary-lite: #ffffff;
-  --secoundry: #fca61f;
-}
 
 /* header section styling here  */
 
 .navbar{
   height: 76px !important;
-  
   background: #fff !important;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
-
-
 }
 
 
 
 .bg-body {
-
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 
 .list {
   color: #333;
@@ -39,7 +22,6 @@
   line-height: normal;
 }
 
-
 nav .navbar-toggler {
   padding: 0;
   border: none;
@@ -47,7 +29,6 @@ nav .navbar-toggler {
 }
 .primary-btn {
   border-radius: 6px;
-
   background: var(--secoundry);
   outline: auto;
   width: 132px;
@@ -76,5 +57,19 @@ nav .navbar-toggler {
   .hero-section .col-12 {
     padding-top: 200px;
     background-position: top;
+  }
+
+  .primary-btn{
+    border-radius: 6px;
+    background: var(--secoundry);
+    outline: auto;
+    width: 90px;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
   }
 }

@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* our product features styling here ... */
 
 .Our-L-section {
@@ -48,6 +42,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 2rem;
 }
 
 .content p strong {
@@ -75,11 +70,11 @@
   border: 1px solid #d6d6d6;
   background: #fff;
   display: flex;
+  max-height: fit-content;
 }
 
 .Our-S-card .img-box-f {
   position: relative;
-  width: 30%;
   flex-shrink: 0;
   border-radius: 77px 500px 500px 77px;
   background: #d2fcff;
@@ -92,7 +87,6 @@
 }
 
 .img-box {
-  width: 100%;
   padding: 20px;
 }
 
@@ -112,6 +106,16 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+}
+
+/* mobile views styling here ... */
+
+.mobile-views-mode {
+  display: none;
+}
+
+.mobile-Our-S-section {
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -148,4 +152,55 @@
   .Our-S-card {
     margin-top: 15px;
   }
+
+  .desktop-mode {
+    display: none;
+  }
+
+  .mobile-views-mode {
+    display: block;
+  }
+
+  .Our-S-row {
+    display: none;
+  }
+
+  .mobile-Our-S-section {
+    display: block;
+  }
+
+  br {
+    display: block ;
+  }
+
+  .Our-S-card {
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    display: flex;
+    max-height: max-content;
+  }
+
+  .card-txt .card-title {
+    color: var(--dark-gary, #333);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37px; /* 154.167% */
+    text-transform: capitalize;
+  }
+
+  .card-mapra {
+    color: #5b5b5b;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+  }
+
+  .img-box{
+    padding: 10px;
+  }
+
+ 
 }

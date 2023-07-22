@@ -15,8 +15,8 @@ function Contact() {
               <span>Get in </span> touch
             </h3>
             <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br/> Lorem Ipsum has been the industry's.
+            Explore the world of new possibilities in education with ed2100!
+
               </p>
           </div>
           <div className="Contact-row">
@@ -30,7 +30,7 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      value=""
+                      // value=""
                       name="FNAME"
                       placeholder="Enter First Name"
                       className="form-control"
@@ -51,7 +51,7 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      value=""
+                      // value=""
                       name="LNAME"
                       placeholder="Enter Last Name"
                       className="form-control"
@@ -73,7 +73,7 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      value=""
+                      // value=""
                       name="FNAME"
                       placeholder="Enter email Id"
                       className="form-control"
@@ -94,7 +94,7 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      value=""
+                      // value=""
                       name="LNAME"
                       placeholder="Enter School name"
                       className="form-control"
@@ -119,7 +119,7 @@ function Contact() {
                     rows="4"
                     cols="40"
                     type="text"
-                    value=""
+                    // value=""
                     name="comment"
                     className="text-area"
                     placeholder="Enter here"

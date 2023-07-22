@@ -1,8 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 /* our product features styling here ... */
 
@@ -104,14 +99,15 @@
 .img-box-f img {
   position: absolute;
   bottom: 0;
+  height: 150px;
 }
 .Our-txt h3 {
   margin-right: 52px;
-  margin-top: 19px;
+  margin-top: 20px;
   display: flex;
   color: #333;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 500;
   line-height: 28px;
   text-transform: capitalize;
 }

@@ -8,11 +8,13 @@ import Ed2100Slide from "../Pages/Ed2100Slide";
 import Contact from "../Pages/Contact";
 import Ed21Program from "../Pages/Ed21Program";
 import OurProFeature from "../Pages/OurProFeature";
-import VideoFrame from "../Pages/VideoFrame";
+import VideoModal from "../Pages/VideoModal"
+
+
 
 
 function HeroSec(props) {
-  const [modal, setModal] = useState(false);
+  // const [modal, setModal] = useState(false);
 
 
   return (
@@ -35,7 +37,8 @@ function HeroSec(props) {
               <div className="players">
                 <button className="primary-btns">Book a demo</button>
                 <div className="playicons" >
-                <VideoFrame />
+                <VideoModal />
+
                   {/* <img  src={playicons} alt="icons" />
                   <h4>Intro Video</h4> */}
                  {/* { modal && <VideoFrame setModal={setModal} /> } onClick={()=>setModal(true)}  */}

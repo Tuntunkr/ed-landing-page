@@ -1,11 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-}
 
 /* our product features styling here ... */
 
@@ -46,6 +39,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 3rem;
 }
 
 .content-edpropgram p strong {
@@ -62,7 +56,33 @@
   gap: 1px;
 }
 
-/* swiper slider styling here ... */
+.slide_image {
+  position: relative;
+   border-radius: 6px;
+  /* background: linear-gradient(358deg, #000 10.67%, rgba(0, 0, 0, 0.5) 100%); */
+}
+
+.ed-p-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  /* z-index: 2; */
+  color: #fffFFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px;
+  /* border-radius: 6px; */
+  /* background: linear-gradient(358deg, #000 16.67%, rgba(0, 0, 0, 0.00) 100%); */
+  
+}
+
+/* mobile slider styling here ... */
+
+.mobile-views{
+  display: none;
+}
 
 .slider-container {
   width: 100%;
@@ -111,5 +131,17 @@
     font-style: normal;
     font-weight: 700;
     line-height: 51px;
+  }
+
+  .desktop-views{
+    display: none;
+  }
+
+  .mobile-views{
+    display: block;
+  }
+  .slick-slide img{
+    display: block;
+    padding: 10px;
   }
 }

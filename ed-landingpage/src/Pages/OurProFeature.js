@@ -86,6 +86,7 @@ function OurProFeature() {
                         borderRadius: "77px 500px 500px 77px",
                       }}
                     >
+                    
                       <img src={card.img} alt="imgs" />
                     </div>
                     <div className="Our-txt">
