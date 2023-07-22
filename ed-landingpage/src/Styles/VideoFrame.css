@@ -9,8 +9,8 @@
   
 
   .modals-body{
-    /* border: 2px solid red; */
-    /* padding: auto; */
+    border: 2px solid red;
+    padding: 0;
 
   }
   @media screen and (max-width: 800px) {

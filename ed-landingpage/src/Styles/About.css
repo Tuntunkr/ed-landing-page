@@ -1,12 +1,10 @@
-
 .Artificial-image img {
   margin-left: 80px;
- 
+
   border-radius: 28px;
 }
 
 .Artificial-image-second img {
- 
   border-radius: 28px;
 }
 
@@ -21,6 +19,8 @@
 
 .process-content {
   margin-top: 70px;
+  display: flex;
+  justify-content: right;
 }
 
 .process-mapra {
@@ -42,7 +42,6 @@
 }
 
 .Ai-Edu-title h3 {
-
   padding-left: 80px;
   margin-top: 50px;
   color: #333;
@@ -106,7 +105,7 @@
     border: 2px solid red;
   }
 
-  .process-content{
+  .process-content {
     margin-top: 1 0px;
   }
   .Artificial-title h3 {
