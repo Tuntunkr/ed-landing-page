@@ -141,6 +141,7 @@
   .hero-section {
     background-size: contain;
     height: fit-content;
+    width: 103%;
   }
 
   .hero-section {
