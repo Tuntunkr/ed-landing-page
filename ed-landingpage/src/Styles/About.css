@@ -20,8 +20,10 @@
 .process-content {
   margin-top: 70px;
   display: flex;
-  justify-content: right;
+  /* justify-content: right; */
 }
+
+
 
 .process-mapra {
   margin-top: 30px;
@@ -100,25 +102,26 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .process-container {
-    background-size: contain;
-    border: 2px solid red;
-  }
-
   .process-content {
     margin-top: 1 0px;
   }
-  .Artificial-title h3 {
+
+  .flipCol .col-12:nth-child(1) {
+    order: 1;
+  }
+  .flipCol .col-12:nth-child(2) {
+    order: 1;
+  }
+  .Artificial-title h3 span {
     margin-top: 10px;
     color: #fca61f;
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 23px;
   }
-  .Artificial-title h3 span {
+  .Artificial-title h3 {
     color: #333;
-    text-align: center;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -127,6 +130,14 @@
 
   .process-mapra {
     margin-top: auto;
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  br {
+    display: block;
   }
 
   .Artificial-image img {
@@ -134,23 +145,58 @@
   }
 
   .Ailist img {
-    margin-left: 10px;
-    text-align: center;
+    margin-left: 15px;
+    width: 16px;
+    height: 13px;
+    margin-top: 30px;
   }
 
   .secGaptwo {
     margin-top: auto;
     padding: 0;
   }
+
+  .Ai-Edu-title h3 span {
+    text-align: center;
+    color: #fca61f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    padding-left: inherit;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
   .Ai-Edu-title h3 {
-    padding-left: inherit;
+    padding-left: 15px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-top: 0;
+    padding-bottom: 20px;
+
   }
+
   .Ailist {
-    padding-left: inherit;
+    padding-left: 15px;
   }
+  .Ailist p {
+    margin-top: 20px;
+    color: #5b5b5b;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  /* br{
+    display: block;
+  } */
   .process-content {
     padding: 0;
     margin-top: 10px;
+    display: flex;
+    justify-content: right;
   }
   .Artificial-image img {
     width: 439.437px;
@@ -161,4 +207,9 @@
     height: 284px;
     margin-bottom: 50px;
   }
+
+  
 }
+
+
+/* animation */

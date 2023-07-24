@@ -5,6 +5,17 @@
   --secondary2: #2398cd;
 }
 
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 1s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
 /* herosection styling here  */
 
 .first-div-padding {
@@ -132,12 +143,18 @@
     height: fit-content;
   }
 
+  .hero-section {
+    background-color: #060b29;
+    background-image: url("../assets/hero-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .hero-section .col-12 {
     padding-top: 200px;
     background-position: top;
   }
   .hero-heading h3 {
-    margin: auto;
     color: #fff;
     text-align: center;
     font-size: 27px;

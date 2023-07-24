@@ -22,7 +22,7 @@ function Ed2100Slide() {
     <div className="secGap">
       <section className="container-fluid ed2100-slide-section  ">
         <div className="container">
-          <div className="Our-L-Partners">
+          <div className="Our-L-Partners animate__animated animate__fadeInDown" data-wow-duration="2s">
             <h3>
               <span>Our Learning</span> Partners
             </h3>
@@ -34,8 +34,8 @@ function Ed2100Slide() {
           </div>
         </div>
 
-        <div className="container py-4 px-4 ">
-          <div className="desktop-mode">
+        <div className="container py-5 px-5 ">
+          <div className="desktop-mode animate__animated animate__fadeInUp" data-wow-duration="2s">
             <Swiper
               // install Swiper modules
               modules={[Navigation]}
@@ -47,113 +47,113 @@ function Ed2100Slide() {
               onSlideChange={() => console.log("slide change")}
             >
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners  ">
                   <div className="img-box-slider">
-                    <img src={image1} />
+                    <img src={image1} alt="img" />
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Furtados</p>
+                    <h3 className="card-title">Furtados</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image2} />
+                    <img src={image2}  alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>JoinBotics</p>
+                    <h3 className="card-title">JoinBotics</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image3} />
+                    <img src={image3} alt="img" />
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Kubo</p>
+                    <h3 className="card-title">Kubo</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image4} />
+                    <img src={image4}  alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>practically</p>
+                    <h3 className="card-title">practically</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image5} />
+                    <img src={image5} alt="img" />
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Whizqiz</p>
+                    <h3 className="card-title">Whizqiz</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               {/* 2nd slider  */}
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image1} />
+                    <img src={image1} alt="img" />
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Furtados</p>
+                    <h3 className="card-title">Furtados</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image2} />
+                    <img src={image2}  alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>JoinBotics</p>
+                    <h3 className="card-title">JoinBotics</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image3} />
+                    <img src={image3} alt="img" />
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Kubo</p>
+                    <h3 className="card-title">Kubo</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image4} />
+                    <img src={image4} alt="img" />
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>practically</p>
+                    <h3 className="card-title">practically</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image5} />
+                    <img src={image5}  alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Whizqiz</p>
+                    <h3 className="card-title">Whizqiz</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -169,7 +169,7 @@ function Ed2100Slide() {
               // install Swiper modules
               modules={[Navigation]}
               spaceBetween={30}
-              slidesPerView={1.5}
+              slidesPerView={2}
               centeredSlides={true}
               navigation
               // scrollbar={{ draggable: true }}
@@ -177,113 +177,113 @@ function Ed2100Slide() {
               onSlideChange={() => console.log("slide change")}
             >
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image1} />
+                    <img src={image1}  alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Furtados</p>
+                    <h3 className="card-title">Furtados</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image2} />
+                    <img src={image2} alt="img"/>
                   </div>
-                  <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>JoinBotics</p>
+                  <div className="card-txts"> 
+                    <h3 className="card-title">JoinBotics</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image3} />
+                    <img src={image3} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Kubo</p>
+                    <h3 className="card-title">Kubo</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image4} />
+                    <img src={image4} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>practically</p>
+                    <h3 className="card-title">practically</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image5} />
+                    <img src={image5} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Whizqiz</p>
+                    <h3 className="card-title">Whizqiz</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               {/* 2nd slider  */}
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image1} />
+                    <img src={image1} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Furtados</p>
+                    <h3 className="card-title">Furtados</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image2} />
+                    <img src={image2} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>JoinBotics</p>
+                    <h3 className="card-title">JoinBotics</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image3} />
+                    <img src={image3} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Kubo</p>
+                    <h3 className="card-title">Kubo</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image4} />
+                    <img src={image4} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>practically</p>
+                    <h3 className="card-title">practically</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="Our-Learning_partners">
+                <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
-                    <img src={image5} />
+                    <img src={image5} alt="img"/>
                   </div>
                   <div className="card-txts">
-                    <h3 className="card-title">India</h3>
-                    <p>Whizqiz</p>
+                    <h3 className="card-title">Whizqiz</h3>
+                    <p>India</p>
                   </div>
                 </div>
               </SwiperSlide>

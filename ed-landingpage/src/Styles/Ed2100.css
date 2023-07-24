@@ -140,6 +140,14 @@
   /* .ed2100-slide-section {
 
   } */
+
+  .ed2100-slide-section {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 212, 255, 0) 50%,
+      rgba(248, 248, 250, 1) 50%
+    );
+  }
   .Our-L-Partners {
     padding-top: 10px;
     margin-top: 30px;
@@ -164,6 +172,9 @@
     margin-left: 0;
     margin-top: 0;
     text-align: center;
+  }
+  .Our-L-Partners p br {
+   display: none;
   }
 
   .feature-row {

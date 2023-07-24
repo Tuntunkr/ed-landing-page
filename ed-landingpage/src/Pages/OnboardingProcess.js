@@ -7,16 +7,16 @@ function OnboardingProcess() {
     
       <section class="bgonbording ">
               <div className="container">
-                <div>
-                  <h3 className="onbording-heading">
-                    Onboarding <span> Process </span>
-                  </h3>
-                  <p className="onbordingpara">
-                    Effortless Onboarding: Seamless Integration, <br /> Endless
-                    Possibilities
-                  </p>
-                </div>
-                <div className="svg-section">
+            <div className="Onboarding-content animate__animated animate__fadeInDown" data-wow-duration="2s">
+              <h3>
+                <span>Onboarding </span> Process
+              </h3>
+              <p>
+              Effortless onboarding: customize your experience with  <br/>endless possibilities
+
+              </p>
+            </div>
+                <div className="svg-section animate__animated animate__fadeInUp" data-wow-duration="2s">
                   <svg
                     width="1175"
                     height="447"

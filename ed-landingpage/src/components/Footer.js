@@ -30,11 +30,11 @@ function Footer() {
 
                     <div className="phoneicons">
                       <img src={phone} alt="icons" />
-                      <p>Toll Free - 9123456700</p>
+                      <p>Toll Free - (+91)  7428900818</p>
                     </div>
                     <div className="phoneicons">
                       <img src={email} alt="icons" />
-                      <p>Email Id - ed2100@gmail.com</p>
+                      <p>Email Id - info@ed2100.com</p>
                     </div>
                     <div className="socialLinks">
                       <ul>
@@ -53,16 +53,6 @@ function Footer() {
                             <img src={Linkdin} alt="icons" />
                           </Link>
                         </li>
-                        <li>
-                          <Link to="">
-                            <img src={youtube} alt="icons" />
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="">
-                            <img src={twitter} alt="icons" />
-                          </Link>
-                        </li>
                       </ul>
                     </div>
                   </div>
@@ -73,23 +63,18 @@ function Footer() {
                   <h5>Useful Links</h5>
                   <ul>
                     <li>
-                      <Link to="" className="footer-menu">
-                        Privecy Policy >>
+                      <Link to="https://www.ed2100.com/privacy.html" className="footer-menu">
+                        Privacy Policy >>
                       </Link>
                     </li>
                     <li>
-                      <Link to="" className="footer-menu">
+                      <Link to="https://www.ed2100.com/term.html" className="footer-menu">
                         Terms & Conditions >>
                       </Link>
                     </li>
                     <li>
-                      <Link to="" className="footer-menu">
-                        Site Map >>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="" className="footer-menu">
-                        FAQs >>
+                      <Link to="https://www.ed2100.com/about/index.html" className="footer-menu">
+                       About >>
                       </Link>
                     </li>
                     <li>

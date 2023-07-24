@@ -10,7 +10,7 @@ function Contact() {
      <div className="secGap">  
       <section className="container-fluid contact-section">
         <div className="container">
-          <div className="Contact-content">
+          <div className="Contact-content animate__animated animate__fadeInDown" data-wow-duration="2s">
             <h3>
               <span>Get in </span> touch
             </h3>
@@ -22,7 +22,7 @@ function Contact() {
           <div className="Contact-row">
 
             <Form >
-              <Row className="container">
+              <Row className="container animate__animated animate__fadeInUp" data-wow-duration="2s">
                 <Col xs={12} sm={12} md={6}>
                   <div>
                     <label for="mce-FNAME">
@@ -43,7 +43,6 @@ function Contact() {
                     ></span>
                   </div>
                 </Col>
-              
                 <Col>
                   <div>
                   <label for="mce-FNAME">
@@ -65,7 +64,7 @@ function Contact() {
                 </Col>
               </Row>
               <br/>
-              <Row className="container">
+              <Row className="container animate__animated animate__fadeInUp" data-wow-duration="2s">
                 <Col xs={12} sm={12} md={6}>
                   <div>
                     <label for="mce-FNAME">
@@ -113,7 +112,7 @@ function Contact() {
               <Row>
               <Col md={12}>
 
-                <div className="textareafield">
+                <div className="textareafield animate__animated animate__fadeInUp" data-wow-duration="2s">
                   <label for="mce-REQUIREMEN" className="type-title">Type Message</label>
                   <textarea
                     rows="4"

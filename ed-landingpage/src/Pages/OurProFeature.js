@@ -61,11 +61,11 @@ function OurProFeature() {
       <div className="secGap">
         <section className="container-fluid feature-section ">
           <div className="container">
-            <div className="content">
+            <div className="content animate__animated animate__fadeInDown" data-wow-duration="2s">
               <h3>
                 <span>Our Product</span> Features
               </h3>
-              <p>
+              <p className="animate__animated animate__fadeInUp" data-wow-duration="2s">
                 <span>ed2100</span> is an AI powered LXP (Learning Experience
                 Platform) forschools, which offers highly personalized <br />{" "}
                 learning and teachingenvironment with world class EdTech
@@ -73,12 +73,11 @@ function OurProFeature() {
               </p>
             </div>
           </div>
-
           <div className="container">
             <div className="feature-row">
               {cards.map((card, i) => {
                 return (
-                  <div className="feature-card">
+                  <div className="feature-card animate__animated animate__fadeInUp" data-wow-duration="2s">
                     <div
                       className="img-box-f"
                       style={{

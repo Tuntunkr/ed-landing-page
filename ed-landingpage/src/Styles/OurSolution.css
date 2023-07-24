@@ -127,6 +127,10 @@
     );
   }
 
+  .Our-Solution-title {
+    padding-top: 30px;
+  }
+
   .Our-S-row {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -153,6 +157,18 @@
     margin-top: 15px;
   }
 
+  .Our-Solution-title p {
+    margin-top: 10px;
+    text-align: initial;
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 10px;
+  
+  }
+
   .desktop-mode {
     display: none;
   }
@@ -170,7 +186,7 @@
   }
 
   br {
-    display: block ;
+    display: block;
   }
 
   .Our-S-card {
@@ -198,9 +214,7 @@
     line-height: 27px;
   }
 
-  .img-box{
+  .img-box {
     padding: 10px;
   }
-
- 
 }

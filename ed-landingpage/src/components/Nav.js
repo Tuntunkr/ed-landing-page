@@ -47,38 +47,28 @@ function Navs() {
                 </li>
                 <li className="nav-item" data-bs-dismiss="offcanvas"
                 aria-label="Close">
-                  <Link to="about" className="list" >
+                  <Link to="https://www.ed2100.com/about/index.html" className="list" >
                     About us
                   </Link>
                 </li>
                 <li className="nav-item" ata-bs-dismiss="offcanvas"
                 aria-label="Close">
-                  <Link to="explore" className="list" >
-                    Explore
+                  <Link to="https://demo.ed2100.com/genius-gauge-home/" className="list" >
+                    Genius Gauge
                   </Link>
                 </li>
                 <li className="nav-item" ata-bs-dismiss="offcanvas"
                 aria-label="Close">
-                  <Link to="edtechpartner" className="list">
-                    EdTech Partners
-                  </Link>
-                </li>
-                <li className="nav-item" ata-bs-dismiss="offcanvas"
-                aria-label="Close">
-                  <Link to="media" className="list">
-                    Media
-                  </Link>
-                </li>
-                <li className="nav-item" ata-bs-dismiss="offcanvas"
-                aria-label="Close">
-                  <Link to="contact" className="list">
-                    Contact us
+                  <Link to="https://www.ed2100.com/partner/" className="list">
+                    Learning Partners
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
+          <Link to="https://demo.ed2100.com/explore">
               <button className="primary-btn">Explore</button>
+              </Link>
         </div>
       </nav>
 
