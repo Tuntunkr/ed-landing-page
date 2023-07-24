@@ -22,7 +22,7 @@ function Contact() {
           <div className="Contact-row">
 
             <Form >
-              <Row className="container animate__animated animate__fadeInUp" data-wow-duration="2s">
+              <Row className=" w-auto animate__animated animate__fadeInUp" data-wow-duration="2s">
                 <Col xs={12} sm={12} md={6}>
                   <div>
                     <label for="mce-FNAME">
@@ -64,7 +64,7 @@ function Contact() {
                 </Col>
               </Row>
               <br/>
-              <Row className="container animate__animated animate__fadeInUp" data-wow-duration="2s">
+              <Row className=" w-auto animate__animated animate__fadeInUp" data-wow-duration="2s">
                 <Col xs={12} sm={12} md={6}>
                   <div>
                     <label for="mce-FNAME">
@@ -115,8 +115,8 @@ function Contact() {
                 <div className="textareafield animate__animated animate__fadeInUp" data-wow-duration="2s">
                   <label for="mce-REQUIREMEN" className="type-title">Type Message</label>
                   <textarea
-                    rows="4"
-                    cols="40"
+                    // rows="4"
+                    // cols="40"
                     type="text"
                     // value=""
                     name="comment"

@@ -164,12 +164,12 @@ function Ed2100Slide() {
         {/* Mobile vies element start here ... */}
 
         <div className="mobile-views-mode">
-          <div className="container py-4 px-4 ">
+          <div className="container ">
             <Swiper
               // install Swiper modules
               modules={[Navigation]}
-              spaceBetween={30}
-              slidesPerView={2}
+              // spaceBetween={30}
+              slidesPerView={2.5}
               centeredSlides={true}
               navigation
               // scrollbar={{ draggable: true }}

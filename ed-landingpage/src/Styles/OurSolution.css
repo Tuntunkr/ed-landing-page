@@ -70,7 +70,10 @@
   border: 1px solid #d6d6d6;
   background: #fff;
   display: flex;
-  max-height: fit-content;
+  max-height: 450px;
+  max-width: 460px;
+  width: 407px;
+  height: 491px;
 }
 
 .Our-S-card .img-box-f {
@@ -154,19 +157,20 @@
     text-transform: capitalize;
   }
   .Our-S-card {
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    /* gap: 5px; */
+    width: 213px;
+    height: 400px;
   }
 
   .Our-Solution-title p {
     margin-top: 10px;
-    text-align: initial;
     color: #333;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     margin-left: 10px;
-  
   }
 
   .desktop-mode {
@@ -175,6 +179,7 @@
 
   .mobile-views-mode {
     display: block;
+    margin-left: -130px;
   }
 
   .Our-S-row {
@@ -183,6 +188,7 @@
 
   .mobile-Our-S-section {
     display: block;
+    
   }
 
   br {

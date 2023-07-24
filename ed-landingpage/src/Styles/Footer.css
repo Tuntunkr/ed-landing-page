@@ -259,4 +259,11 @@ footer .footer-logo img {
   .footer-menu-title{
     text-align: center;
   }
+
+  .footer-menu-title2{
+    display: none;
+  }
+  .footer-menu-title1{
+    display: none;
+  }
 }

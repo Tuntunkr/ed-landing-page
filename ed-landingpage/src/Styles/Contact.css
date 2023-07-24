@@ -1,5 +1,3 @@
-
-
 /* Contact styling here ... */
 
 .contact-section {
@@ -71,7 +69,7 @@ label {
 }
 
 .form-control {
-  width: 90%;
+  width: 100%;
   height: 70px;
 }
 
@@ -96,7 +94,7 @@ label {
 }
 
 .textareafield {
-  width: 92%;
+  width: 94%;
 }
 
 .text-area {
@@ -170,7 +168,7 @@ select ::-ms-expand {
   }
 
   .Contact-content {
-    padding-top: 40px;
+    padding-top: 0px;
   }
 
   .Contact-row {
@@ -178,18 +176,45 @@ select ::-ms-expand {
   }
 
   .form-control {
-    width: 113%;
+    width: 100%;
     height: 63px;
   }
   label {
-    padding-top: 10px;
-    margin-bottom: 5px;
+    padding-top: 15px;
+    margin-bottom: 10px;
   }
   .textareafield {
     width: 98%;
   }
 
-  .Contact-content p{
+  br{
+    display: none;
+  }
+
+  .Contact-content h3 span {
+    color: #fca61f;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px; 
+    text-transform: capitalize;
+  }
+  .Contact-content h3  {
+    color: #333;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px; 
+    text-transform: capitalize;
+  }
+
+  .Contact-content p {
     margin-bottom: 0;
   }
+
+  
 }

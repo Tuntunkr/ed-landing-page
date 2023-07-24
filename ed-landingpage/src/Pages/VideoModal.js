@@ -31,7 +31,6 @@ function VideoModal(props) {
         <Modal.Body className="modals-body">
           <iframe
             className="modal__video-style"
-            loading="lazy"
             width="782"
             height="430"
             src="https://www.youtube.com/embed/vdMPP47nLhc"

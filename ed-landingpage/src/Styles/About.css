@@ -141,8 +141,13 @@
   }
 
   .Artificial-image img {
-    margin: inherit;
+    margin-left: 5px;
   }
+
+  .Artificial-image-second img {
+    border-radius: 28px;
+    margin-left: 7px;
+}
 
   .Ailist img {
     margin-left: 15px;
@@ -199,12 +204,9 @@
     justify-content: right;
   }
   .Artificial-image img {
-    width: 439.437px;
-    height: 284px;
+    margin-bottom: 10px;
   }
   .Artificial-image-second img {
-    width: 439.437px;
-    height: 284px;
     margin-bottom: 50px;
   }
 

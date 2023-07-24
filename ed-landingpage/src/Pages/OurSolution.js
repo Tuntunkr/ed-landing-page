@@ -139,7 +139,7 @@ function OurSolution() {
                 // install Swiper modules
                 modules={[Navigation]}
                 spaceBetween={30}
-                slidesPerView={1}
+                slidesPerView={1.5}
                 navigation
                 // scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
