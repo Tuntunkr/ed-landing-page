@@ -17,7 +17,7 @@ function AboutUs(props) {
               <img src={AI} alt="proces" />
             </div>
           </div>
-          <div className="col-sm">
+          <div className="col-12 col-md-6 col-lg-6 ">
             <div className="process-content">
               <div className="Artificial-title animate__animated animate__fadeInDown" data-wow-duration="2s">
                 <h3>

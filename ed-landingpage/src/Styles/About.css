@@ -23,8 +23,6 @@
   /* justify-content: right; */
 }
 
-
-
 .process-mapra {
   margin-top: 30px;
   color: #5b5b5b;
@@ -147,7 +145,7 @@
   .Artificial-image-second img {
     border-radius: 28px;
     margin-left: 7px;
-}
+  }
 
   .Ailist img {
     margin-left: 15px;
@@ -180,7 +178,6 @@
     line-height: 23px;
     margin-top: 0;
     padding-bottom: 20px;
-
   }
 
   .Ailist {
@@ -209,9 +206,79 @@
   .Artificial-image-second img {
     margin-bottom: 50px;
   }
-
-  
 }
 
-
 /* animation */
+/* 
+@media only screen and (max-width: 788px) {
+  .process-content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .secGaptwo {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .flipCol .col-12:nth-child(1) {
+    order: 1;
+  }
+  .flipCol .col-12:nth-child(2) {
+    order: 1;
+  }
+  .Artificial-image-second img {
+    border-radius: 28px;
+    margin-left: 100px;
+  }
+  .feature-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content p br {
+    display: none;
+  }
+
+  .Our-txt p {
+    margin-right: 0px;
+  }
+
+  .feature-card {
+    max-height: 280px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #d6d6d6;
+    background: #fff;
+    display: flex;
+    gap: 15px;
+  }
+
+  .content-edpropgram p br {
+    display: none;
+  }
+  .ed-p-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+} */
+
+@media (max-width: 1280px) {
+  
+
+  .process-content {
+    margin-top: 70px;
+    display: flex;
+    justify-content: right;
+  }
+}

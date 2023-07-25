@@ -218,3 +218,17 @@ select ::-ms-expand {
 
   
 }
+
+
+@media only screen and (max-width: 1280px) {
+  .textareafield {
+
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .textareafield {
+
+    width: 100%;
+  }
+}

@@ -67,7 +67,7 @@ function OurProFeature() {
               </h3>
               <p className="animate__animated animate__fadeInUp" data-wow-duration="2s">
                 <span>ed2100</span> is an AI powered LXP (Learning Experience
-                Platform) forschools, which offers highly personalized <br />{" "}
+                Platform) forschools, which offers highly personalized <br />
                 learning and teachingenvironment with world class EdTech
                 solutions at your fingertips
               </p>
