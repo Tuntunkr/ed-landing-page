@@ -51,17 +51,17 @@
 }
 
 .slide_images {
-  color: #ffffff;
+  /* color: #ffffff; */
   position: relative;
   border-radius: 6px;
-  background: linear-gradient(358deg, #000 16.67%, rgba(0, 0, 0, 0.5) 100%);
+  /* background: linear-gradient(358deg, #000 16.67%, rgba(0, 0, 0, 0.5) 100%); */
 }
 
 .ed-p-title {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  z-index: 2;
+  /* z-index: 2; */
   color: #ffffff;
   text-align: center;
   font-size: 20px;

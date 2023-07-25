@@ -110,6 +110,9 @@
   .flipCol .col-12:nth-child(2) {
     order: 1;
   }
+  .Ai-Edu-title h3{
+    margin-left: -80px !important;
+  }
   .Artificial-title h3 span {
     margin-top: 10px;
     color: #fca61f;
@@ -315,8 +318,9 @@
 }
 
 .Ai-Edu-title h3{
-  margin-left: 0;
+  margin-left: -289px;
 }
+
 .Ai-Edu-title h3 span{
   margin-left: 0;
 }

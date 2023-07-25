@@ -155,11 +155,11 @@
     padding-top: 30px;
   }
 
-  .Our-S-row {
+  /* .Our-S-row {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px;
-  }
+  } */
 
   .Our-Solution-title h3 {
     color: #333;
@@ -257,10 +257,10 @@
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 1366px) {
+/* @media only screen and (max-width: 1366px) {
   .Our-S-row {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 9px;
 }
-}
+} */
