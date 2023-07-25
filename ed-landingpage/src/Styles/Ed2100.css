@@ -202,3 +202,46 @@
     margin-right: 20px;
   }
 }
+
+
+/*  */
+
+
+@media only screen and (max-width: 768px) {
+  .card-title{
+    font-size: 16px;
+  }
+
+  .Our-L-Partners p br{
+    display: none;
+  }
+
+  .swiper-button-next {
+    background-image: none;
+  }
+
+  .swiper-button-prev {
+    background-image: none;
+  }
+
+
+} 
+@media only screen and (max-width: 820px) {
+  .card-title{
+    font-size: 16px;
+  }
+
+  .Our-L-Partners p br{
+    display: none;
+  }
+
+  .swiper-button-next {
+    background-image: none;
+  }
+
+  .swiper-button-prev {
+    background-image: none;
+  }
+
+
+} 

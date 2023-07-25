@@ -248,6 +248,19 @@
 
 
 
-@media only screen and (max-width: 788px) {
-  
+@media only screen and (max-width: 820px) {
+  .Our-Solution-title p br{
+    display: none;
+  }
+
+  .ed-p-title{
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .Our-S-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+}
 }

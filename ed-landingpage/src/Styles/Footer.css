@@ -267,3 +267,101 @@ footer .footer-logo img {
     display: none;
   }
 }
+
+
+/*  */
+
+@media only screen and (max-width: 768px) {
+  .footer-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footdesrption{
+    text-align: center;
+  }
+
+  .phoneicons{
+    display: flex;
+    justify-content: center;
+  }
+
+  .socialLinks{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-menu-title{
+    display: flex ;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: initial;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+ 
+
+  .footer-menu-title1{
+    display: none;
+  }
+  .footer-menu-title2{
+    display: none;
+  }
+
+
+} 
+
+
+
+@media only screen and (max-width: 820px) {
+  .footer-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footdesrption{
+    text-align: center;
+  }
+
+  .phoneicons{
+    display: flex;
+    justify-content: center;
+  }
+
+  .socialLinks{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-menu-title{
+    display: flex ;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+ 
+
+  .footer-menu-title1{
+    display: none;
+  }
+  .footer-menu-title2{
+    display: none;
+  }
+}

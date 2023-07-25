@@ -50,17 +50,18 @@
   gap: 1px;
 }
 
-.slide_image {
+.slide_images {
+  color: #ffffff;
   position: relative;
   border-radius: 6px;
-  /* background: linear-gradient(358deg, #000 10.67%, rgba(0, 0, 0, 0.5) 100%); */
+  background: linear-gradient(358deg, #000 16.67%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .ed-p-title {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  /* z-index: 2; */
+  z-index: 2;
   color: #ffffff;
   text-align: center;
   font-size: 20px;
@@ -223,5 +224,15 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  
+  .content-edpropgram p br{
+    display: none;
+  }
+  .ed-p-title{
+    font-size: 16px;
   }
 }

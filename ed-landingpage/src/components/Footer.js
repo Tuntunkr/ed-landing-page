@@ -122,8 +122,8 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-2">
-                <div className="footer-menu-title2">
+              <div className="col-md-2 footer-menu-title2">
+                <div className="footer-menu-title">
                   <h5>Link Group 1</h5>
                   <ul>
                     <li>

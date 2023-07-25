@@ -56,31 +56,31 @@ function Ed21Program() {
           <div className="desktop-views">
             <Slider {...settings}>
               {/* 1card img */}
-              <div className="slide_image">
-                <img src={image4} alt="slide_image" />
+              <div className="slide_images">
+                <img className="" src={image4} alt="slide_image" />
                 <p className="ed-p-title">Scholars</p>
               </div>
 
               {/* 2 ND image */}
               <div className="slide_image">
-                <img src={image3} alt="slide_image" />
+                <img className="slide_images" src={image3} alt="slide_image" />
                 <p className="ed-p-title">Technologies</p>
               </div>
 
               {/* 3Rd image */}
               <div className="slide_image">
-                <img src={image2} alt="slide_image" />
+                <img className="slide_images" src={image2} alt="slide_image" />
                 <p className="ed-p-title">Performing Artists</p>
               </div>
 
               {/* 4th Image */}
               <div className="slide_image">
-                <img src={image1} alt="slide_image" />
+                <img className="slide_images" src={image1} alt="slide_image" />
                 <p className="ed-p-title">Sportsmen</p>
               </div>
               {/* 5th image */}
               <div className="slide_image">
-                <img src={image5} alt="slide_image" />
+                <img className="slide_images" src={image5} alt="slide_image" />
                 <p className="ed-p-title">Test Prep seekers</p>
               </div>
               
@@ -93,30 +93,30 @@ function Ed21Program() {
             <Slider {...setting}>
               {/* 1card img */}
               <div className="slide_image">
-                <img src={image4} alt="slide_image" />
+                <img className="slide_images" src={image4} alt="slide_image" />
                 <p className="ed-p-title">Scholars</p>
               </div>
 
               {/* 2 ND image */}
               <div className="slide_image">
-                <img src={image3} alt="slide_image" />
+                <img className="slide_images" src={image3} alt="slide_image" />
                 <p className="ed-p-title">Technologies</p>
               </div>
 
               {/* 3Rd image */}
               <div className="slide_image">
-                <img src={image2} alt="slide_image" />
+                <img className="slide_images" src={image2} alt="slide_image" />
                 <p className="ed-p-title">Performing Artists</p>
               </div>
 
               {/* 4th Image */}
               <div className="slide_image">
-                <img src={image4} alt="slide_image" />
+                <img className="slide_images" src={image4} alt="slide_image" />
                 <p className="ed-p-title">Sportsmen</p>
               </div>
               {/* 5th image */}
               <div className="slide_image">
-                <img src={image5} alt="slide_image" />
+                <img className="slide_images" src={image5} alt="slide_image" />
                 <p className="ed-p-title">Test Prep seekers</p>
               </div>
             </Slider>
