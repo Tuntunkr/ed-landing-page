@@ -1,145 +1,93 @@
 import React from "react";
-import Form from "react-bootstrap/Form";
 import "../Styles/Contact.css";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import { Fade } from "react-reveal";
 
 function Contact() {
   return (
     <>
-     <div className="secGap">  
-      <section className="container-fluid contact-section">
-      <Fade>
-        <div className="container">
-          <div className="Contact-content animate__animated animate__fadeInDown" data-wow-duration="2s">
-            <h3>
-              <span>Get in </span> touch
-            </h3>
-            <p>
-            Explore the world of new possibilities in education with ed2100!
+      <div className="secGap">
+        <section className="container-fluid contact-section">
+          <div className="container">
+            <div
+              className="Contact-content animate__animated animate__fadeInDown"
+              data-wow-duration="2s"
+            >
+              <Fade top duration={2000}>
+                <h3>
+                  <span>Get in </span> touch
+                </h3>
+              </Fade>
+              <Fade bottom duration={2000}>
+                <p>
+                  Explore the world of new possibilities in education with
+                  ed2100!
+                </p>
+              </Fade>
+            </div>
 
-              </p>
-          </div>
-          <div className="Contact-row">
-
-            <Form >
-              <Row className=" w-auto animate__animated animate__fadeInUp" data-wow-duration="2s">
-                <Col xs={12} sm={12} md={6}>
-                  <div>
-                    <label for="mce-FNAME">
-                      First Name <span className="asterisk">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      // value=""
-                      name="FNAME"
-                      placeholder="Enter First Name"
-                      className="form-control"
-                      id="mce-FNAME"
-                      required
-                    />
-                    <span
-                      id="mce-FNAME-HELPERTEXT"
-                      className="helper_text"
-                    ></span>
-                  </div>
-                </Col>
-                <Col>
-                  <div>
-                  <label for="mce-FNAME">
-                      Last Name <span className="asterisk">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      // value=""
-                      name="LNAME"
-                      placeholder="Enter Last Name"
-                      className="form-control"
-                      id="mce-LNAME"
-                    />
-                    <span
-                      id="mce-LNAME-HELPERTEXT"
-                      className="helper_text"
-                    ></span>
-                  </div>
-                </Col>
-              </Row>
-              <br/>
-              <Row className=" w-auto animate__animated animate__fadeInUp" data-wow-duration="2s">
-                <Col xs={12} sm={12} md={6}>
-                  <div>
-                    <label for="mce-FNAME">
-                    Email id <span className="asterisk">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      // value=""
-                      name="FNAME"
-                      placeholder="Enter email Id"
-                      className="form-control"
-                      id="mce-FNAME"
-                      required
-                    />
-                    <span
-                      id="mce-FNAME-HELPERTEXT"
-                      className="helper_text"
-                    ></span>
-                  </div>
-                </Col>
-              
-                <Col>
-                  <div>
-                  <label for="mce-FNAME">
-                  Your Role at Company <span className="asterisk">*</span>
-                    </label>
-                    <input
-                      type="text"
-                      // value=""
-                      name="LNAME"
-                      placeholder="Enter School name"
-                      className="form-control"
-                      id="mce-LNAME"
-                    />
-                    
-                   
-                  </div>
-                </Col>
-              </Row>
-              {/*  */}
-              <br/>
-
-              
-              <br />
-              <Row>
-              <Col md={12}>
-
-                <div className="textareafield animate__animated animate__fadeInUp" data-wow-duration="2s">
-                  <label for="mce-REQUIREMEN" className="type-title">Type Message</label>
-                  <textarea
-                    // rows="4"
-                    // cols="40"
-                    type="text"
-                    // value=""
-                    name="comment"
-                    className="text-area"
-                    placeholder="Enter here"
-                    id="mce-REQUIREMEN"
-                  ></textarea>
-                  
-                </div>
-              </Col>
-              </Row>
-              <div className="clear btn1">
-                <button className="d-button">Send Message</button>
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <label for="exampleFormControlInput1" class="form-label">
+                  First Name*
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter Your First Name"
+                />
               </div>
-            </Form>
+              <div class="col-md-6 col-sm-6">
+                <label for="exampleFormControlInput1" class="form-label">
+                  Last Name*
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Your Last name"
+                  aria-label="Last name"
+                />
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-md-6 col-sm-6">
+                <label for="exampleFormControlInput1" class="form-label">
+                  Email id*
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <label for="exampleFormControlInput1" class="form-label">
+                  Your Role at Company
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ui Developer"
+                  aria-label="Ui Developer"
+                />
+              </div>
+            </div>
+            <Fade bottom duration={2000}>
+            <div class="mt-4">
+              <label for="exampleFormControlTextarea1" class="form-label">
+                Type Message
+              </label>
+              <textarea
+                class="form-control text-height"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Typing ..."
+              ></textarea>
+            </div>
+              </Fade>
           </div>
-        </div>
-        <div className="container">
-        </div>
-        </Fade>
-      </section>
+        </section>
       </div>
     </>
   );

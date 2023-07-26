@@ -362,10 +362,25 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .feature-row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .mobileViews-card {
+    display: block !important;
+    margin: 10px;
   }
+
+  .feature-row {
+    display: none !important;
+  }
+
+  .accordion-button::after {
+    display: none;
+  }
+
+  .our-title{
+    margin-left: 15px;
+  }
+
+
+  
   .content p br {
     display: none;
   }

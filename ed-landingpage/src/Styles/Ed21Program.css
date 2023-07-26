@@ -163,11 +163,11 @@
 
 
 
-@media only screen and (max-width: 788px) {
-  .process-content {
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
+@media only screen and (max-width: 768px) {
+  
+  .slick-slide img {
+    display: block;
+    padding: 5px;
   }
 
   .secGaptwo {
@@ -179,16 +179,7 @@
     flex: 0 0 auto;
     width: 100%;
   }
-  .flipCol .col-12:nth-child(1) {
-    order: 1;
-  }
-  .flipCol .col-12:nth-child(2) {
-    order: 1;
-  }
-  .Artificial-image-second img {
-    border-radius: 28px;
-    margin-left: 100px;
-  }
+
   .feature-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -216,8 +207,8 @@
   }
   .ed-p-title {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 15px;
+    left: 8px;
     color: #ffffff;
     text-align: center;
     font-size: 16px;

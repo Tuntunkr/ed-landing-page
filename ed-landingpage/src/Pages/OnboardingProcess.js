@@ -9,17 +9,22 @@ function OnboardingProcess() {
     
       <section class="bgonbording ">
               <div className="container">
-              <Fade>
+             
             <div className="Onboarding-content animate__animated animate__fadeInDown" data-wow-duration="2s">
+            <Fade top duration={2000}>
               <h3>
                 <span>Onboarding </span> Process
               </h3>
+              </Fade>
+              <Fade bottom duration={2000}>
               <p>
               Effortless onboarding: customize your experience with  <br/>endless possibilities
 
               </p>
+              </Fade>
             </div>
-                <div className="svg-section animate__animated animate__fadeInUp" data-wow-duration="2s">
+            <Fade bottom duration={2000}>
+                <div className="svg-section">
                   <svg
                     width="1175"
                     height="447"

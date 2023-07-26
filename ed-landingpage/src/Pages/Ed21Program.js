@@ -16,7 +16,7 @@ function Ed21Program() {
     // dots: true,
     spaceBetween: 30,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 4.5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -43,15 +43,19 @@ function Ed21Program() {
           <Fade >
           <div className="container">
             <div className="content-edpropgram animate__animated animate__fadeInDown" data-wow-duration="2s">
+            <Fade top duration={2000}>
               <h3>
                 <span>ed2100 program </span> offerings
               </h3>
-              <p className="animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+              <Fade bottom duration={2000}>
+              <p>
                 We promote holistic development in students, building their
                 social, emotional, physical and <br /> intellectual health. This
                 helps boost the child's confidence for the 21st century
                 environment.
               </p>
+              </Fade>
             </div>
           </div>
 

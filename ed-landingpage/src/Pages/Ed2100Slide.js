@@ -25,19 +25,24 @@ function Ed2100Slide() {
       <Fade>
         <div className="container">
           <div className="Our-L-Partners animate__animated animate__fadeInDown" data-wow-duration="2s">
+          <Fade top duration={2000}>
+           
             <h3>
               <span>Our Learning</span> Partners
             </h3>
+            </Fade>
+            <Fade bottom duration={2000}>
             <p>
               We curate and onboard world class domestic and international
               EdTech partners on our platform, to <br /> provide the best
               exposure to the schools, their teachers and the students.
             </p>
+            </Fade>
           </div>
         </div>
 
         <div className="container py-5 px-5 ">
-          <div className="desktop-mode animate__animated animate__fadeInUp" data-wow-duration="2s">
+          <div className="desktop-mode">
             <Swiper
               // install Swiper modules
               modules={[Navigation]}
@@ -49,6 +54,7 @@ function Ed2100Slide() {
               onSlideChange={() => console.log("slide change")}
             >
               <SwiperSlide>
+                <Fade left duration={2000}>
                 <div className="Our-Learning_partners  ">
                   <div className="img-box-slider">
                     <img src={image1} alt="img" />
@@ -58,8 +64,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                  </Fade>
               </SwiperSlide>
               <SwiperSlide>
+                <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image2}  alt="img"/>
@@ -69,8 +77,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                  </Fade>
               </SwiperSlide>
               <SwiperSlide>
+                <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image3} alt="img" />
@@ -80,8 +90,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                  </Fade>
               </SwiperSlide>
               <SwiperSlide>
+                <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image4}  alt="img"/>
@@ -91,8 +103,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                  </Fade>
               </SwiperSlide>
               <SwiperSlide>
+                <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image5} alt="img" />
@@ -102,9 +116,11 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                  </Fade>
               </SwiperSlide>
               {/* 2nd slider  */}
               <SwiperSlide>
+                <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image1} alt="img" />
@@ -114,8 +130,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                </Fade>
               </SwiperSlide>
               <SwiperSlide>
+              <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image2}  alt="img"/>
@@ -125,8 +143,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                </Fade>
               </SwiperSlide>
               <SwiperSlide>
+              <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image3} alt="img" />
@@ -136,8 +156,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                </Fade>
               </SwiperSlide>
               <SwiperSlide>
+              <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image4} alt="img" />
@@ -147,8 +169,10 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                </Fade>
               </SwiperSlide>
               <SwiperSlide>
+              <Fade left duration={2000}>
                 <div className="Our-Learning_partners ">
                   <div className="img-box-slider">
                     <img src={image5}  alt="img"/>
@@ -158,6 +182,7 @@ function Ed2100Slide() {
                     <p>India</p>
                   </div>
                 </div>
+                </Fade>
               </SwiperSlide>
             </Swiper>
           </div>

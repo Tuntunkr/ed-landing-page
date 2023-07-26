@@ -67,24 +67,28 @@ function OurProFeature() {
           <Fade>
           
             <div className="content animate__animated animate__fadeInDown" data-wow-duration="2s">
+            <Fade top duration={2000}>
               <h3>
                 <span>Our Product</span> Features
               </h3>
-              <p className="animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+              <Fade bottom duration={2000}>
+              <p>
                 <span>ed2100</span> is an AI powered LXP (Learning Experience
                 Platform) forschools, which offers highly personalized <br />
                 learning and teachingenvironment with world class EdTech
                 solutions at your fingertips
               </p>
+              </Fade>
             </div>
             </Fade>
           </div>
           <div className="container">
-          <Fade >
+          <Fade bottom duration={2000}>
             <div className="feature-row">
               {cards.map((card, i) => {
                 return (
-                  <div className="feature-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+                  <div className="feature-card ">
                     <div
                       className="img-box-f"
                       style={{
@@ -103,30 +107,8 @@ function OurProFeature() {
                 );
               })}
             </div>
-            </Fade >
+            </Fade>
           </div>
-
-          {/*  */}
-          {/* <div className="container">
-            <div className="feature-row">
-              <div className="feature-card">
-                <div className="img-box-bider">
-                  <img src={img1} alt="imgs" />
-                </div>
-                <div className="Our-txt">
-                  <h3> Intelligent learning</h3>
-                  <p className="mobile-card1-mapra">
-                    AI enabled personalized education through profiling,
-                    learning pathways, recommendation engine, assignments &
-                    personal feedbacks
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          {/*  */}
-
           <div className="mobileViews-card">
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
@@ -134,7 +116,7 @@ function OurProFeature() {
                   <div className="border-design">
                     <img src={img1} alt="img" />
                   </div>
-                  <h3> Intelligent learning</h3>
+                  <h3 className="our-title"> Intelligent learning</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
@@ -154,7 +136,7 @@ function OurProFeature() {
                   <div className="border-design1">
                     <img src={img2} alt="img" />
                   </div>
-                  <h3> Single Window Access</h3>
+                  <h3 className="our-title"> Single Window Access</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
@@ -173,7 +155,7 @@ function OurProFeature() {
                   <div className="border-design2">
                     <img src={img3} alt="img" />
                   </div>
-                  <h3> Immersive Learning</h3>
+                  <h3 className="our-title"> Immersive Learning</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
@@ -191,7 +173,7 @@ function OurProFeature() {
                   <div className="border-design3">
                     <img src={img4} alt="img" />
                   </div>
-                  <h3>Intelligent teaching</h3>
+                  <h3 className="our-title">Intelligent teaching</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
@@ -211,7 +193,7 @@ function OurProFeature() {
                   <div className="border-design4">
                     <img src={img5} alt="img" />
                   </div>
-                  <h3> Consolidated growth mapping</h3>
+                  <h3 className="our-title"> Consolidated growth mapping</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
@@ -230,7 +212,7 @@ function OurProFeature() {
                   <div className="border-design5">
                     <img src={img6} alt="img" />
                   </div>
-                  <h3> Consolidated educational records</h3>
+                  <h3 className="our-title"> Consolidated educational records</h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">

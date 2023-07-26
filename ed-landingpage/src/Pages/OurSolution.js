@@ -22,24 +22,28 @@ function OurSolution() {
       <div className="secGap">
         <section className="container-fluid Our-L-section">
           <div className="container">
-          <Fade>
-            <div className="Our-Solution-title animate__animated animate__fadeInDown" data-wow-duration="2s">
+         
+            <div className="Our-Solution-title ">
+            <Fade top duration={2000}>
               <h3>
                 <span>Our</span> Solutions
               </h3>
-              <p className="animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+              <Fade bottom duration={2000}>
+              <p>
                 ed2100 provides one-stop-shop learning and teaching solutions to
                 schools, bringing the best global programs <br/> on a single platform
                 at the best prices. This helps schools in hassle free decision
                 making in quick time.
               </p>
+              </Fade>
             </div>
-            </Fade>
           </div>
           <div className="container">
-          <Fade>
+         
             <div className="Our-S-row">
-              <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+            <Fade left duration={2000}>
+              <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image1} />
                 </div>
@@ -55,7 +59,10 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+            <Fade top duration={2000}>
+
+              <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image2} />
                 </div>
@@ -71,7 +78,10 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+            <Fade right duration={2000}>
+
+              <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image3} />
                 </div>
@@ -87,7 +97,10 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+            <Fade left duration={2000}>
+
+              <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image4} />
                 </div>
@@ -103,7 +116,10 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+            <Fade bottom duration={2000}>
+              
+              <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image6} />
                 </div>
@@ -119,7 +135,10 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+              </Fade>
+            <Fade right duration={2000}>
+
+              <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image5} />
                 </div>
@@ -135,8 +154,8 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
+              </Fade>
             </div>
-            </Fade>
           </div>
 
           <div className="container py-4 px-4 ">
@@ -152,7 +171,7 @@ function OurSolution() {
                 onSlideChange={() => console.log("slide change")}
               >
                 <SwiperSlide>
-                  <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+                  <Card className="Our-S-card ">
                     <div className="img-box">
                       <Card.Img src={image1} />
                     </div>
@@ -170,7 +189,7 @@ function OurSolution() {
                   </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+                  <Card className="Our-S-card ">
                     <div className="img-box">
                       <Card.Img src={image2} />
                     </div>
@@ -188,7 +207,7 @@ function OurSolution() {
                   </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+                  <Card className="Our-S-card ">
                     <div className="img-box">
                       <Card.Img src={image6} />
                     </div>
@@ -206,7 +225,7 @@ function OurSolution() {
                   </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+                  <Card className="Our-S-card ">
                     <div className="img-box">
                       <Card.Img src={image4} />
                     </div>
@@ -224,7 +243,7 @@ function OurSolution() {
                   </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+                  <Card className="Our-S-card ">
                     <div className="img-box">
                       <Card.Img src={image3} />
                     </div>
@@ -243,7 +262,7 @@ function OurSolution() {
                 </SwiperSlide>
                 {/* 2nd slider  */}
                 <SwiperSlide>
-                  <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
+                  <Card className="Our-S-card ">
                     <div className="img-box">
                       <Card.Img src={image5} />
                     </div>
