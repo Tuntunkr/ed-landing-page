@@ -108,6 +108,12 @@ label {
 }
 
 /* button styling here ... */
+.S-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 
 .d-button {
   border: 2px solid #fca61f;

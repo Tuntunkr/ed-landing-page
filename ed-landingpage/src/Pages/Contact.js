@@ -85,6 +85,9 @@ function Contact() {
                 placeholder="Typing ..."
               ></textarea>
             </div>
+                <div className="S-button">
+                  <button type="submit" className="d-button">Send Message</button>
+                </div>
               </Fade>
           </div>
         </section>
