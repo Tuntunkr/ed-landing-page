@@ -7,6 +7,8 @@ import img3 from "../assets/icons3.svg";
 import img4 from "../assets/icons4.svg";
 import img5 from "../assets/icons5.svg";
 import img6 from "../assets/icons6.svg";
+import Fade from 'react-reveal/Fade';
+
 
 function OurProFeature() {
   const [cards] = useState([
@@ -59,8 +61,11 @@ function OurProFeature() {
   return (
     <>
       <div className="secGap">
+     
         <section className="container-fluid feature-section ">
           <div className="container">
+          <Fade>
+          
             <div className="content animate__animated animate__fadeInDown" data-wow-duration="2s">
               <h3>
                 <span>Our Product</span> Features
@@ -72,8 +77,10 @@ function OurProFeature() {
                 solutions at your fingertips
               </p>
             </div>
+            </Fade>
           </div>
           <div className="container">
+          <Fade >
             <div className="feature-row">
               {cards.map((card, i) => {
                 return (
@@ -96,6 +103,7 @@ function OurProFeature() {
                 );
               })}
             </div>
+            </Fade >
           </div>
 
           {/*  */}

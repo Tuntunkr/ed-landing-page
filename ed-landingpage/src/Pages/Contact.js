@@ -3,12 +3,14 @@ import Form from "react-bootstrap/Form";
 import "../Styles/Contact.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Fade } from "react-reveal";
 
 function Contact() {
   return (
     <>
      <div className="secGap">  
       <section className="container-fluid contact-section">
+      <Fade>
         <div className="container">
           <div className="Contact-content animate__animated animate__fadeInDown" data-wow-duration="2s">
             <h3>
@@ -136,6 +138,7 @@ function Contact() {
         </div>
         <div className="container">
         </div>
+        </Fade>
       </section>
       </div>
     </>

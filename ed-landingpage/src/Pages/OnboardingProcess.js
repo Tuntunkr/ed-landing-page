@@ -1,5 +1,7 @@
 import React from "react";
 import "../Styles/OnBoarding.css";
+import Fade from 'react-reveal/Fade';
+
 
 function OnboardingProcess() {
   return (
@@ -7,6 +9,7 @@ function OnboardingProcess() {
     
       <section class="bgonbording ">
               <div className="container">
+              <Fade>
             <div className="Onboarding-content animate__animated animate__fadeInDown" data-wow-duration="2s">
               <h3>
                 <span>Onboarding </span> Process
@@ -946,6 +949,7 @@ function OnboardingProcess() {
                       </defs>
                     </svg>
                   </div>
+                  </Fade>
               </div>
 
 

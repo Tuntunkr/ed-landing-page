@@ -8,6 +8,8 @@ import image5 from "../assets/testPre image.svg";
 
 import React from "react";
 import Slider from "react-slick";
+import Fade from 'react-reveal/Fade';
+
 
 function Ed21Program() {
   const settings = {
@@ -38,6 +40,7 @@ function Ed21Program() {
     <>
       <div className="secGap">
         <section className="container-fluid ed2100-program-sections">
+          <Fade >
           <div className="container">
             <div className="content-edpropgram animate__animated animate__fadeInDown" data-wow-duration="2s">
               <h3>
@@ -121,6 +124,8 @@ function Ed21Program() {
               </div>
             </Slider>
           </div>
+          </Fade>
+
         </section>
       </div>
     </>

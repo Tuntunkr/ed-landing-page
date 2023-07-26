@@ -16,11 +16,13 @@ import image4 from "../assets/learning4.svg";
 import image5 from "../assets/learning5.svg";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Fade } from "react-reveal";
 
 function Ed2100Slide() {
   return (
     <div className="secGap">
       <section className="container-fluid ed2100-slide-section  ">
+      <Fade>
         <div className="container">
           <div className="Our-L-Partners animate__animated animate__fadeInDown" data-wow-duration="2s">
             <h3>
@@ -290,6 +292,7 @@ function Ed2100Slide() {
             </Swiper>
           </div>
         </div>
+        </Fade>
       </section>
     </div>
   );

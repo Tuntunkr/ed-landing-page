@@ -3,6 +3,8 @@ import "../Styles/About.css";
 import AI from "../assets/AI.png";
 import AI2 from "../assets/Ai2.png";
 import aicons from "../assets/aicons.svg";
+import Fade from 'react-reveal/Fade';
+
 
 
 function AboutUs(props) {
@@ -10,7 +12,8 @@ function AboutUs(props) {
     <>
       {/* 1nd Process start here ... */}
 
-      <div className="container secGap">
+      <div className="container secGap" >
+      <Fade  top  duration={5000}>
         <div className="row  secGaps">
           <div className="col-12 col-md-6 col-lg-6 ">
             <div className="Artificial-image animate__animated  animate__zoomIn" data-wow-duration="2s" >
@@ -33,10 +36,12 @@ function AboutUs(props) {
             </div>
           </div>
         </div>
+        </Fade>
       </div>
 
       {/* 2st Process section start here  */}
       <div className="container">
+      <Fade bottom duration={5000}>
         <div className="row flipCol secGaptwo">
           <div className="col-12 col-md-6 col-lg-6">
             <div className="Ai-Edu-title animate__animated animate__fadeInDown" data-wow-duration="2s">
@@ -69,6 +74,7 @@ function AboutUs(props) {
             </div>
           </div>
         </div>
+        </Fade >
       </div>
      
     </>

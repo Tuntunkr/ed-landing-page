@@ -9,6 +9,8 @@ import image6 from "../assets/helpimg.png";
 import image5 from "../assets/img5.png";
 // mobile image
 // import img1 from "../assets/Our_S_img1.png";
+import Fade from 'react-reveal/Fade';
+
 
 import { Navigation } from "swiper/modules";
 
@@ -20,6 +22,7 @@ function OurSolution() {
       <div className="secGap">
         <section className="container-fluid Our-L-section">
           <div className="container">
+          <Fade>
             <div className="Our-Solution-title animate__animated animate__fadeInDown" data-wow-duration="2s">
               <h3>
                 <span>Our</span> Solutions
@@ -31,8 +34,10 @@ function OurSolution() {
                 making in quick time.
               </p>
             </div>
+            </Fade>
           </div>
           <div className="container">
+          <Fade>
             <div className="Our-S-row">
               <Card className="Our-S-card animate__animated animate__fadeInUp" data-wow-duration="2s">
                 <div className="img-box">
@@ -131,6 +136,7 @@ function OurSolution() {
                 </Card.Body>
               </Card>
             </div>
+            </Fade>
           </div>
 
           <div className="container py-4 px-4 ">
