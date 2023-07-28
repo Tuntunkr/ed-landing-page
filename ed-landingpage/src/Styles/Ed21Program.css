@@ -216,3 +216,27 @@
     line-height: 30px;
   }
 }
+
+
+/* .ed-p-title */
+
+
+@media only screen and (max-width: 820px) {
+  .ed-p-title{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+
+  .slide_image {
+    position: relative;
+    border-radius: 6px;
+    padding: 5px;
+  }
+
+}

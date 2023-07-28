@@ -45,12 +45,12 @@ function Navs() {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item" data-bs-dismiss="offcanvas"
+                {/* <li className="nav-item" data-bs-dismiss="offcanvas"
                 aria-label="Close">
                   <Link to="https://www.ed2100.com/about/index.html" className="list" >
                     About us
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item" ata-bs-dismiss="offcanvas"
                 aria-label="Close">
                   <Link to="https://demo.ed2100.com/genius-gauge-home/" className="list" >

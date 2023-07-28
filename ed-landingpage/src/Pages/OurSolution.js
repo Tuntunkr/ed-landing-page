@@ -22,27 +22,25 @@ function OurSolution() {
       <div className="secGap">
         <section className="container-fluid Our-L-section">
           <div className="container">
-         
-            <div className="Our-Solution-title ">
-            <Fade top duration={2000}>
+
+          <div className="content-edpropgram ">
+            
               <h3>
-                <span>Our</span> Solutions
+                <span>Our  </span> Solutions
               </h3>
-              </Fade>
-              <Fade bottom duration={2000}>
+            
               <p>
                 ed2100 provides one-stop-shop learning and teaching solutions to
                 schools, bringing the best global programs <br/> on a single platform
                 at the best prices. This helps schools in hassle free decision
                 making in quick time.
               </p>
-              </Fade>
             </div>
           </div>
           <div className="container">
          
             <div className="Our-S-row">
-            <Fade left duration={2000}>
+            
               <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image1} />
@@ -59,9 +57,6 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Fade>
-            <Fade top duration={2000}>
-
               <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image2} />
@@ -78,8 +73,7 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Fade>
-            <Fade right duration={2000}>
+            
 
               <Card className="Our-S-card ">
                 <div className="img-box">
@@ -97,9 +91,6 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Fade>
-            <Fade left duration={2000}>
-
               <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image4} />
@@ -116,9 +107,7 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Fade>
-            <Fade bottom duration={2000}>
-              
+
               <Card className="Our-S-card ">
                 <div className="img-box">
                   <Card.Img src={image6} />
@@ -135,8 +124,8 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Fade>
-            <Fade right duration={2000}>
+
+            
 
               <Card className="Our-S-card ">
                 <div className="img-box">
@@ -154,21 +143,27 @@ function OurSolution() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              </Fade>
+
             </div>
           </div>
 
-          <div className="container py-4 px-4 ">
+          <div className="container ">
             <div className="mobile-Our-S-section">
               <Swiper
                 // install Swiper modules
                 modules={[Navigation]}
-                spaceBetween={30}
-                slidesPerView={1.5}
+                spaceBetween={20}
+                // slidesPerView={1.5}
                 navigation
                 // scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
+                breakpoints={{
+          640: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+        }}
               >
                 <SwiperSlide>
                   <Card className="Our-S-card ">

@@ -1,10 +1,15 @@
 .Artificial-image img {
   border-radius: 28px;
-  width: 100%;
+  width: 82%;
+  margin-left: 50px;
 }
 
 .Artificial-image-second img {
   border-radius: 28px;
+  width: 80%;
+  margin-left: 20px;
+
+
 }
 
 .secGaps {
@@ -12,7 +17,6 @@
 }
 
 .secGaptwo {
-  margin-top: 40px;
   padding: 130px 0px 1px 2px;
 }
 
@@ -142,8 +146,11 @@
   }
 
   .Artificial-image img {
-    margin-left: 5px;
+    margin-left: auto;
+    width: 100%;
   }
+
+
 
   .Artificial-image-second img {
     border-radius: 28px;
@@ -212,7 +219,10 @@
     margin-bottom: 10px;
   }
   .Artificial-image-second img {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+  }
+  .process-content{
+    padding-left: 10px;
   }
 }
 
@@ -223,6 +233,10 @@
     margin-top: 70px;
     display: flex;
     justify-content: start !important;
+  }
+
+  .process-content {
+    margin-left: 0;
   }
 
   .Ai-Edu-title h3 {
@@ -251,7 +265,6 @@
     order: 1;
   }
   .Artificial-image-second img {
-    border-radius: 38px;
     width: 100%;
   }
 
@@ -310,8 +323,19 @@
 @media only screen and (max-width: 820px) {
   .process-content {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: start;
+    margin-top: 40px;
+  }
+
+  .Artificial-image img{
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .Artificial-image-second img{
+    width: 100%;
+    border-radius: 38px;
+    margin-left: auto;
   }
 
   .flipCol .col-12:nth-child(1) {
@@ -328,12 +352,21 @@
     text-align: center;
 }
 
+.secGap{
+  padding: 5px;
+}
+
 .Ai-Edu-title h3{
-  margin-left: -289px;
+  padding-left: 0 !important;
+  text-align: start;
 }
 
 .Ai-Edu-title h3 span{
   margin-left: 0;
+}
+
+.Ailist{
+  padding-left: 0;
 }
 
   .content-edpropgram p br {

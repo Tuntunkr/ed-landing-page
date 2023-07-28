@@ -7,108 +7,151 @@ import img3 from "../assets/icons3.svg";
 import img4 from "../assets/icons4.svg";
 import img5 from "../assets/icons5.svg";
 import img6 from "../assets/icons6.svg";
-import Fade from 'react-reveal/Fade';
-
+import Fade from "react-reveal/Fade";
 
 function OurProFeature() {
-  const [cards] = useState([
-    {
-      bg: "#D2FCFF",
-      titile: "Intelligent learning",
-      description:
-        "AI enabled personalized education through profiling, learning pathways, recommendation engine, assignments & personal feedbacks",
-      img: "https://imgur.com/cpLPDe2.png",
-    },
-    {
-      bg: "#ECEFFF",
-      titile: "Single Window Access",
-      description:
-        "programs and courses from pre-k to 12th grade, academic to non-academic, domestic to international.",
-      img: "https://imgur.com/Wy4lZpJ.png",
-    },
-    {
-      bg: "#FFF0F0",
-
-      titile: "Immersive Learning",
-      description: "learning through AR, VR, 3D simulations & gamification",
-      img: "https://imgur.com/VD9xTYA.png",
-    },
-    {
-      bg: "#F5FFF0",
-
-      titile: "Intelligent teaching",
-      description:
-        "as per individual student's learning needs, course recommendations, auto lesson plans, scheduling, regulated lesson flows, auto Quiz, assessments & grading.",
-      img: "https://imgur.com/lVaEsXt.png",
-    },
-    {
-      bg: "#FFF5E4",
-
-      titile: "Consolidated growth mapping",
-      description:
-        "For all programs on a single platform for 360° development visibility",
-      img: "https://imgur.com/qPk1xae.png",
-    },
-    {
-      bg: "#E6E8E6",
-      titile: "Consolidated educational records",
-      description:
-        "All educational records including certificate, transcripts, and growth analysis will be available here.",
-      img: "https://imgur.com/MCtSIt0.png",
-    },
-  ]);
-
   return (
     <>
       <div className="secGap">
-     
         <section className="container-fluid feature-section ">
           <div className="container">
-          <Fade>
-          
-            <div className="content animate__animated animate__fadeInDown" data-wow-duration="2s">
-            <Fade top duration={2000}>
+            <div
+              className="content animate__animated animate__fadeInDown"
+              data-wow-duration="2s"
+            >
               <h3>
                 <span>Our Product</span> Features
               </h3>
-              </Fade>
-              <Fade bottom duration={2000}>
+
               <p>
                 <span>ed2100</span> is an AI powered LXP (Learning Experience
                 Platform) forschools, which offers highly personalized <br />
                 learning and teachingenvironment with world class EdTech
                 solutions at your fingertips
               </p>
-              </Fade>
             </div>
-            </Fade>
           </div>
-          <div className="container">
-          <Fade bottom duration={2000}>
-            <div className="feature-row">
-              {cards.map((card, i) => {
-                return (
-                  <div className="feature-card ">
-                    <div
-                      className="img-box-f"
-                      style={{
-                        background: card.bg,
-                        borderRadius: "77px 500px 500px 77px",
-                      }}
-                    >
-                    
-                      <img src={card.img} alt="imgs" />
-                    </div>
-                    <div className="Our-txt">
-                      <h3>{card.titile}</h3>
-                      <p>{card.description}</p>
-                    </div>
-                  </div>
-                );
-              })}
+
+          {/* desktop card here ... */}
+          <section class="product-features-container">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <ul class="product-features">
+                    <li>
+                      <figure>
+                        <div className="img-container">
+                          <img src={img1} alt="Intelligent learning" />
+                        </div>
+
+                        <figcaption>
+                          <h4>Intelligent learning</h4>
+                          <p>
+                            AI enabled personalized education through profiling,
+                            learning pathways, recommendation engine,
+                            assignments & personal feedbacks
+                          </p>
+                        </figcaption>
+                      </figure>
+                    </li>
+
+                    <li>
+                      <figure>
+                        <div className="img-container">
+                          <img src={img2} alt="Intelligent learning" />
+                        </div>
+
+                        <figcaption>
+                          <h4>
+                            Single Window <br /> Access
+                          </h4>
+                          <p>
+                            programs and courses from pre-k to 12th grade,
+                            academic to non-academic, domestic to international.
+                          </p>
+                        </figcaption>
+                      </figure>
+                    </li>
+
+                    <li>
+                      <figure>
+                        <div className="img-container">
+                          <img src={img3} alt="Intelligent learning" />
+                        </div>
+
+                        <figcaption>
+                          <h4>
+                            Immersive <br /> Learning
+                          </h4>
+                          <p>
+                            learning through AR, VR, 3D simulations &
+                            gamification
+                          </p>
+                        </figcaption>
+                      </figure>
+                    </li>
+
+                    <li>
+                      <figure>
+                        <div className="img-container">
+                          <img src={img4} alt="Intelligent learning" />
+                        </div>
+
+                        <figcaption>
+                          <h4>Intelligent teaching</h4>
+                          <p>
+                            as per individual student's learning needs, course
+                            recommendations, auto lesson plans, scheduling,
+                            regulated lesson flows, auto Quiz, assessments &
+                            grading.
+                          </p>
+                        </figcaption>
+                      </figure>
+                    </li>
+
+                    <li>
+                      <figure>
+                        <div className="img-container">
+                          <img src={img5} alt="Intelligent learning" />
+                        </div>
+
+                        <figcaption>
+                          <h4>
+                            Consolidated <br /> growth mapping
+                          </h4>
+                          <p>
+                            For all programs on a single platform for 360°
+                            development visibility
+                          </p>
+                        </figcaption>
+                      </figure>
+                    </li>
+
+                    <li>
+                      <figure>
+                        <div className="img-container">
+                          <img src={img6} alt="Intelligent learning" />
+                        </div>
+
+                        <figcaption>
+                          <h4>
+                            Consolidated <br /> educational records
+                          </h4>
+                          <p>
+                            All educational records including certificate,
+                            transcripts, and growth analysis will be available
+                            here.
+                          </p>
+                        </figcaption>
+                      </figure>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            </Fade>
-          </div>
+          </section>
+
+          {/* Mobile views card here ... */}
           <div className="mobileViews-card">
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
@@ -212,7 +255,10 @@ function OurProFeature() {
                   <div className="border-design5">
                     <img src={img6} alt="img" />
                   </div>
-                  <h3 className="our-title"> Consolidated educational records</h3>
+                  <h3 className="our-title">
+                    {" "}
+                    Consolidated educational records
+                  </h3>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">

@@ -38,24 +38,23 @@ function Ed21Program() {
 
   return (
     <>
+     <Fade  duration={2000}>
       <div className="secGap">
         <section className="container-fluid ed2100-program-sections">
-          <Fade >
           <div className="container">
-            <div className="content-edpropgram animate__animated animate__fadeInDown" data-wow-duration="2s">
-            <Fade top duration={2000}>
+            <div className="content-edpropgram ">
+            
               <h3>
                 <span>ed2100 program </span> offerings
               </h3>
-              </Fade>
-              <Fade bottom duration={2000}>
+             
               <p>
                 We promote holistic development in students, building their
                 social, emotional, physical and <br /> intellectual health. This
                 helps boost the child's confidence for the 21st century
                 environment.
               </p>
-              </Fade>
+
             </div>
           </div>
 
@@ -128,10 +127,10 @@ function Ed21Program() {
               </div>
             </Slider>
           </div>
-          </Fade>
 
         </section>
       </div>
+          </Fade>
     </>
   );
 }

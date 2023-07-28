@@ -95,7 +95,6 @@
   background-size: cover;
 }
 .players {
-  margin-left: 20px;
   margin-top: 40px;
   display: flex;
   gap: 100px;
@@ -223,7 +222,15 @@
 
   .playicons {
     gap: 10px;
+    
   }
+  .players{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+   
   .playicons h4 {
     color: #fff;
     font-size: 16px;
