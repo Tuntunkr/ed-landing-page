@@ -159,11 +159,27 @@ function OurSolution() {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
                 breakpoints={{
-          640: {
-            slidesPerView: 5,
-            spaceBetween: 20,
-          },
-        }}
+                  390: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                  },
+                  640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 40,
+                  },
+                  820: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                  },
+                  1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                  },
+                }}
               >
                 <SwiperSlide>
                   <Card className="Our-S-card ">

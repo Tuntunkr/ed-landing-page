@@ -29,7 +29,7 @@ function AboutUs(props) {
                   perform routine and process <br /> oriented tasks, and help
                   humans to focus <br />
                   on more important aspects of social, <br /> emotional and
-                  creative engagements
+                  creative engagements.
                 </p>
               </div>
             </div>
@@ -48,19 +48,19 @@ function AboutUs(props) {
                 </h3>
                 <div className="Ailist">
                   <img src={aicons} alt="icons" />
-                  <p>Each student has unique learning needs</p>
+                  <p>Each student has unique learning needs.</p>
                 </div>
               {/* 2 */}
                 <div className="Ailist">
                   <img src={aicons} alt="icons" />
-                  <p>Education can only be improved by making it PERSONAL.</p>
+                  <p>Education can only be improved by making it personal.</p>
                 </div>
               {/* 3 */}
                 <div className="Ailist">
                   <img src={aicons} alt="icons" />
-                  <p className="ed-para">
-                    Education can be personalized for each student through AI.{" "}
-                    <br /> (AI does not replace teachers but enables them)
+                  <p className="ed-paras">
+                    Education can be personalized for each student through  AI.
+                     (AI does not replace teachers but enables them).
                   </p>
                 </div>
             </div>

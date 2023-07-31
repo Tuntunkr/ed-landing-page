@@ -1,5 +1,6 @@
 /* Contact styling here ... */
 
+
 .contact-section {
   background: linear-gradient(
     0deg,
@@ -9,7 +10,7 @@
 }
 
 .Contact-content {
-  padding-top: 70px;
+  padding-top: 60px;
   text-align: center;
 }
 
@@ -36,7 +37,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .Contact-row {
@@ -52,12 +53,26 @@ label {
   margin-bottom: 10px;
 }
 
+input{
+  height: 55px;
+
+}
+
+.contact-sec{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+select{
+  height: 55px;
+}
+
 .form-control {
   background: transparent;
   border: 1px solid rgba(209, 209, 209, 0.3) !important;
   border-radius: 10px;
   /* line-height: 70px; */
-  height: 65px;
+  /* height: 65px; */
   background: #ffffff;
 }
 
@@ -143,6 +158,10 @@ select ::-ms-expand {
   color: #262d35;
 }
 
+.form-controls{
+  height: 190px !important;
+}
+
 @media only screen and (max-width: 600px) {
   .process-container {
     background-size: contain;
@@ -170,6 +189,7 @@ select ::-ms-expand {
   }
 
   .Contact-content h3 span {
+
     color: #fca61f;
     text-align: center;
     font-family: Montserrat;
@@ -180,6 +200,8 @@ select ::-ms-expand {
     text-transform: capitalize;
   }
   .Contact-content h3  {
+    margin-top: 2rem;
+    padding-top: 30px;
     color: #333;
     text-align: center;
     font-family: Montserrat;
@@ -192,7 +214,16 @@ select ::-ms-expand {
 
   .Contact-content p {
     margin-bottom: 0;
+    margin-top: 20px;
   }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: initial !important;
+    display: flex !important;
+    margin: auto !important;
+    margin-top: 40px;
+}
 
   
 }

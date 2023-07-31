@@ -16,18 +16,17 @@ function OurProFeature() {
         <section className="container-fluid feature-section ">
           <div className="container">
             <div
-              className="content animate__animated animate__fadeInDown"
-              data-wow-duration="2s"
+              className="content"
             >
               <h3>
-                <span>Our Product</span> Features
+                <span>ed2100 the</span> Products
               </h3>
 
               <p>
                 <span>ed2100</span> is an AI powered LXP (Learning Experience
                 Platform) forschools, which offers highly personalized <br />
                 learning and teachingenvironment with world class EdTech
-                solutions at your fingertips
+                solutions at your fingertips.
               </p>
             </div>
           </div>
@@ -49,7 +48,7 @@ function OurProFeature() {
                           <p>
                             AI enabled personalized education through profiling,
                             learning pathways, recommendation engine,
-                            assignments & personal feedbacks
+                            assignments & personal feedbacks.
                           </p>
                         </figcaption>
                       </figure>
@@ -85,7 +84,7 @@ function OurProFeature() {
                           </h4>
                           <p>
                             learning through AR, VR, 3D simulations &
-                            gamification
+                            gamification.
                           </p>
                         </figcaption>
                       </figure>
@@ -121,7 +120,7 @@ function OurProFeature() {
                           </h4>
                           <p>
                             For all programs on a single platform for 360°
-                            development visibility
+                            development visibility.
                           </p>
                         </figcaption>
                       </figure>
@@ -165,7 +164,7 @@ function OurProFeature() {
                   <p className="mobile-card1-mapra">
                     AI enabled personalized education through profiling,
                     learning pathways, recommendation engine, assignments &
-                    personal feedbacks
+                    personal feedbacks.
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
@@ -202,7 +201,7 @@ function OurProFeature() {
                 </Accordion.Header>
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
-                    learning through AR, VR, 3D simulations & gamification
+                    learning through AR, VR, 3D simulations & gamification.
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
@@ -241,7 +240,7 @@ function OurProFeature() {
                 <Accordion.Body>
                   <p className="mobile-card1-mapra">
                     For all programs on a single platform for 360° development
-                    visibility
+                    visibility.
                   </p>
                 </Accordion.Body>
               </Accordion.Item>

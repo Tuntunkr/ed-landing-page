@@ -70,6 +70,10 @@
   /* background: linear-gradient(358deg, #000 16.67%, rgba(0, 0, 0, 0.00) 100%); */
 }
 
+.slick-slide img {
+  border-radius: 8px;
+}
+
 /* mobile slider styling here ... */
 
 .mobile-views {
@@ -225,7 +229,7 @@
   .ed-p-title{
     position: absolute;
     bottom: 20px;
-    left: 10px;
+    left: 30px;
     color: #ffffff;
     text-align: center;
     font-size: 18px;
