@@ -81,6 +81,10 @@
   margin-left: 30px;
 }
 
+.arrowicons{
+  margin-top: -40px;
+}
+
 .Ailist p {
   margin-top: 10px;
   color: #5b5b5b;
@@ -360,6 +364,7 @@
   .Ailist{
     margin-left: 0;
   }
+  
 
   .Ailist p{
     text-align: left;

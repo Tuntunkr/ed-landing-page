@@ -23,7 +23,7 @@ function Footer() {
                     <Link to="https://www.ed2100.com/term.html" target="_blanck">Terms & Condition</Link>
                   </li>
                   <li>
-                    <Link to="https://www.ed2100.com/privacy.html">Privacy Policy</Link>
+                    <Link to="https://www.ed2100.com/privacy.html " target="_blanck">Privacy Policy</Link>
                   </li>
                 </ul>
                 <div className="footer-nav">
@@ -75,7 +75,7 @@ function Footer() {
                       <a href="#" >
                         <img src={locat} alt="icon" />
                       </a>
-                      <span> B-133, Logix Technova, Sector-132,  Noida, Uttar Pradesh - 201301</span>  
+                      <span> B-133, Logix Technova, Sector-132, Noida, Uttar Pradesh - 201301</span>  
                      
                      
                     </div>

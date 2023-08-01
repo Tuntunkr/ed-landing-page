@@ -276,10 +276,11 @@
     left: 0;
     bottom: 10;
     width: 80px;
-    height: 100px !important;
+    height: 70px !important;
     flex-shrink: 0;
   }
   .border-design5 {
+    margin-top: 2px;
     border-radius: 77px 500px 500px 77px;
     background: #e6e8e6;
     position: absolute;
@@ -287,7 +288,7 @@
     left: -2px;
     bottom: 10;
     width: 80px;
-    height: 100px !important;
+    height: 98px !important;
     flex-shrink: 0;
 }
 

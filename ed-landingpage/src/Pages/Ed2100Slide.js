@@ -13,12 +13,15 @@ import image1 from "../assets/learning1.svg";
 import image2 from "../assets/learning2.svg";
 import image3 from "../assets/learning3.svg";
 import image4 from "../assets/learning4.svg";
-import image5 from "../assets/learning5.svg";
+import image5 from "../assets/wheelogo.jpeg";
 import tantalum from "../assets/tantalum_logo.jpeg";
 import ipreplogo from "../assets/ipreplogo.jpeg";
 import learning from "../assets/learnlanguages24Logo.jpeg";
-import univeriety from "../assets/univariety_logo.png";
-// import learnLaunge from "../assets"
+import univeriety from "../assets/university.png";
+import learnLaunge from "../assets/LearningChess_logo-svg.jpeg"
+import eduvance from "../assets/eduvance.png"
+import shinkan from "../assets/akashinkan-logo.svg"
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Fade } from "react-reveal";
@@ -135,7 +138,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image1} alt="img" />
+                      <img src={tantalum} alt="img" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">Tantalum</h3>
@@ -146,7 +149,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image2} alt="img" />
+                      <img src={ipreplogo} alt="img" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">iDream</h3>
@@ -157,7 +160,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image3} alt="img" />
+                      <img src={learnLaunge} alt="img" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">Learning chess</h3>
@@ -168,7 +171,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image4} alt="img" />
+                      <img src={shinkan} alt="img" className="shinkan" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">Shinkan</h3>
@@ -191,7 +194,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image5} alt="img" />
+                      <img src={univeriety} alt="img" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">Univariety</h3>
@@ -203,7 +206,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image5} alt="img" />
+                      <img src={image1} alt="img" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">FSM</h3>
@@ -215,7 +218,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image5} alt="img" />
+                      <img src={eduvance} alt="img" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">Eduvance</h3>
@@ -226,7 +229,7 @@ function Ed2100Slide() {
                 <SwiperSlide>
                   <div className="Our-Learning_partners ">
                     <div className="img-box-slider">
-                      <img src={image5} alt="img" />
+                      <img src={learning} alt="img" />
                     </div>
                     <div className="card-txts">
                       <h3 className="card-title">Learn Languages 24</h3>

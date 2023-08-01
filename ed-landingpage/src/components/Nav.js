@@ -19,9 +19,11 @@ function Navs() {
           >
             <FaBars />
           </button>
-          <Link to="/" className="logo">
-            <img src={logo} alt="logo" />
-          </Link>
+          <div className="logo">
+            <Link to="/">
+              <img src={logo} alt="logo" />
+            </Link>
+          </div>
           <div
             className="offcanvas offcanvas-start "
             tabindex="-1"
@@ -38,8 +40,10 @@ function Navs() {
             </div>
             <div className="offcanvas-body ">
               <ul className="navbar-nav justify-content-end gap-4 flex-grow-1 pe-3">
-                <li className="nav-item"  data-bs-dismiss="offcanvas"
-                aria-label="Close"
+                <li
+                  className="nav-item"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
                 >
                   <Link to="/" className="list">
                     Home
@@ -51,14 +55,17 @@ function Navs() {
                     About us
                   </Link>
                 </li> */}
-                <li className="nav-item" ata-bs-dismiss="offcanvas"
+                {/* <li className="nav-item" ata-bs-dismiss="offcanvas"
                 aria-label="Close">
                   <Link to="https://demo.ed2100.com/genius-gauge-home/" className="list" >
                     Genius Gauge
                   </Link>
-                </li>
-                <li className="nav-item" ata-bs-dismiss="offcanvas"
-                aria-label="Close">
+                </li> */}
+                <li
+                  className="nav-item"
+                  ata-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
                   <Link to="https://www.ed2100.com/partner/" className="list">
                     Learning Partners
                   </Link>
@@ -66,13 +73,11 @@ function Navs() {
               </ul>
             </div>
           </div>
-          <Link to="https://demo.ed2100.com/explore">
+          {/* <Link to="https://demo.ed2100.com/explore">
               <button className="primary-btn">Explore</button>
-              </Link>
+              </Link> */}
         </div>
       </nav>
-
-      
     </>
   );
 }

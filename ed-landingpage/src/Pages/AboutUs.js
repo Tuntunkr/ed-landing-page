@@ -57,7 +57,7 @@ function AboutUs(props) {
                 </div>
               {/* 3 */}
                 <div className="Ailist">
-                  <img src={aicons} alt="icons" />
+                  <img src={aicons} alt="icons"  className="arrowicons"/>
                   <p className="ed-paras">
                     Education can be personalized for each student through  AI.
                      (AI does not replace teachers but enables them).
